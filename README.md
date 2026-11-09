@@ -48,9 +48,9 @@ python3 scripts/sync_skills.py --check
 脚本会自包含地同步至三个目录：
 - `.opencode/skills/finance-script-studio/`
 - `.codex/skills/finance-script-studio/`
-- `.py/skills/finance-script-studio/`
+- `.pi/skills/finance-script-studio/`
 
-各位置均有独立 SKILL.md 和 references，不依赖软链接。修改主版本后重新同步。尽管 `.py` 不是通用 Agent Skill 目录，仍按项目的部署要求保留。
+各位置均有独立 SKILL.md 和 references，不依赖软链接。修改主版本后重新同步。Pi Coding Agent 支持在项目的 `.pi/skills/` 中自动发现 Skill；原先误写的 `.py/` 目录已迁移删除。
 
 ## GitHub Pages
 

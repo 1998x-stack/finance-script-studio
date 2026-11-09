@@ -11,10 +11,14 @@ SOURCE = ROOT / "skill-src" / "finance-script-studio"
 TARGETS = [
     ROOT / ".opencode" / "skills" / "finance-script-studio",
     ROOT / ".codex" / "skills" / "finance-script-studio",
-    ROOT / ".py" / "skills" / "finance-script-studio",
+    ROOT / ".pi" / "skills" / "finance-script-studio",
 ]
 
 def sync(check: bool = False) -> None:
+    # Catch a stale legacy deployment after migrating from the typo .py to .pi.
+    legacy = ROOT / ".py" / "skills" / "finance-script-studio"
+    if legacy.exists():
+        raise SystemExit(f"Legacy deployment remains; remove it: {legacy}")
     if not (SOURCE / "SKILL.md").is_file():
         raise SystemExit("Missing canonical SKILL.md")
     source_paths = {p.relative_to(SOURCE) for p in SOURCE.rglob("*") if p.is_file()}
