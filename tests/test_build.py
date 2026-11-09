@@ -6,8 +6,15 @@ import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from build_site import SITE, article_page, build, read_articles, validate
+from sync_skills import SOURCE, TARGETS
 
 class EditorialBuildTests(unittest.TestCase):
+    def test_skill_targets_use_pi_not_py(self):
+        self.assertIn(Path(__file__).resolve().parents[1] / ".pi" / "skills" / "finance-script-studio", TARGETS)
+        self.assertTrue(all(".py" not in p.parts for p in TARGETS))
+        self.assertTrue(all((p / "SKILL.md").is_file() for p in TARGETS))
+        self.assertFalse((Path(__file__).resolve().parents[1] / ".py" / "skills" / "finance-script-studio").exists())
+
     def test_articles_valid(self):
         articles=read_articles()
         self.assertGreaterEqual(len(articles),1)

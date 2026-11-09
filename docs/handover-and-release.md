@@ -5,7 +5,7 @@
 ## 完成交付
 
 - [x] 专业财经口播 Agent Skill，包含主版本 `skill-src/finance-script-studio/SKILL.md`、7份参考资料、2个模板。
-- [x] 完整同步到 `.opencode/skills/`、`.codex/skills/`、`.py/skills/`。
+- [x] 完整同步到 `.opencode/skills/`、`.codex/skills/`、`.pi/skills/`。
 - [x] 华发专题结构化稿件：`content/articles/huafa-liquidity-2026.json`，包括公开证据、概念机制、180秒口播与分镜。
 - [x] 网页构建器：首页、独立文章页、信息来源索引、JSON数据目录、sitemap、响应式阅读样式。
 - [x] Python 结构校验与基本发布回归测试；在静态构建时清除上次遗留的文章页，避免已撤稿文章残留。
