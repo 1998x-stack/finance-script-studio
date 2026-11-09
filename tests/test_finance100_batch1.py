@@ -43,8 +43,8 @@ class Finance100Batch01Tests(unittest.TestCase):
 
     def test_scripts_are_five_stages_and_provide_substantial_content(self):
         pattern = re.compile(
-            r"^## (\\d{2}):(\\d{2})–(\\d{2}):(\\d{2})｜[^\\n]+\\n\\n"
-            r"([\\s\\S]*?)(?=\\n## |\\n---)", re.MULTILINE
+            r"^## (\d{2}):(\d{2})–(\d{2}):(\d{2})｜[^\n]+\n\n"
+            r"([\s\S]*?)(?=\n## |\n---)", re.MULTILINE
         )
         expected = [(0, 15), (15, 45), (45, 105), (105, 150), (150, 180)]
         for e in self.episodes:
