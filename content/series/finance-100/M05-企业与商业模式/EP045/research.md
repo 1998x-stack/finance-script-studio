@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 文献/机构 | URL | 发表或快照日期 | 来源边界 |
 |---|---|---|---|---|
 | S1 | OpenStax｜Marketing Plan Progress Using Metrics | https://openstax.org/books/principles-marketing/pages/2-4-marketing-plan-progress-using-metrics | 2022-12-14 | CAC、CLV、客户留存的定义与成本边界 |
-| S2 | OpenStax｜Business Model Canvas | https://openstax.org/books/organizational-behavior/pages/19-3-business-model-canvas | 2019-06-01 | 商业模式价值主张、收入来源、客户、关键活动与成本结构；来源网页无确认日，日期暂按教材年份归档、终审需复核 |
+| S2 | OpenStax｜Business Model Canvas | https://openstax.org/books/organizational-behavior/pages/19-3-business-model-canvas | 2026-11-09（查阅日；原发布日期待核） | 商业模式价值主张、收入来源、客户、关键活动与成本结构；来源网页无确认日，日期暂按教材年份归档、终审需复核 |
 
 ## 关键断言与归类
 

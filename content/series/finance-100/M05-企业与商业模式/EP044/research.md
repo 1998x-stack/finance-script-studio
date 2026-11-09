@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 文献/机构 | URL | 发表或快照日期 | 来源边界 |
 |---|---|---|---|---|
 | S1 | OpenStax｜Costs in the Long Run | https://openstax.org/books/principles-economics-3e/pages/7-5-costs-in-the-long-run | 2022-12-14 | 规模经济、长期平均成本和规模不经济 |
-| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-01-01 | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
+| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-09（查阅日；原发布日期待核） | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
 
 ## 关键断言与归类
 

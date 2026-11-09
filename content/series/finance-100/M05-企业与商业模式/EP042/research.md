@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 文献/机构 | URL | 发表或快照日期 | 来源边界 |
 |---|---|---|---|---|
 | S1 | 财政部｜企业会计准则第14号——收入 | https://kjs.mof.gov.cn/zt/kjzzss/kuaijizhunzeshishi/201709/t20170907_2694006.htm | 2017-09-07 | 中国企业收入确认及客户合同原则的官方原文 |
-| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-01-01 | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
+| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-09（查阅日；原发布日期待核） | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
 
 ## 关键断言与归类
 

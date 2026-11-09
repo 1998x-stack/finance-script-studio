@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 文献/机构 | URL | 发表或快照日期 | 来源边界 |
 |---|---|---|---|---|
 | S1 | CFA Institute｜Financial Ratio List | https://www.cfainstitute.org/sites/default/files/-/media/documents/support/programs/cfa/cfa_program_level_ii_financial_ratio_list.pdf | 2026-11-09 | 比例公式对照表；日期为查阅快照，非原PDF发布日期 |
-| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-01-01 | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
+| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-09（查阅日；原发布日期待核） | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
 
 ## 关键断言与归类
 
