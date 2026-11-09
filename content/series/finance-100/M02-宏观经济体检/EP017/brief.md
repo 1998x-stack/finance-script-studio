@@ -3,7 +3,7 @@ series: finance-100
 episode: EP017
 module: M02
 title: "消费、投资、净出口"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

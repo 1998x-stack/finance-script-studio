@@ -3,7 +3,7 @@ series: finance-100
 episode: EP018
 module: M02
 title: "储蓄率与投资率"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP020
 module: M02
 title: "收入分配与边际消费倾向"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

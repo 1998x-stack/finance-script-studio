@@ -3,7 +3,7 @@ series: finance-100
 episode: EP016
 module: M02
 title: "经济周期与领先指标"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

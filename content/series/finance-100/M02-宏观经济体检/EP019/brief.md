@@ -3,7 +3,7 @@ series: finance-100
 episode: EP019
 module: M02
 title: "生产率与长期增长"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

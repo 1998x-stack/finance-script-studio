@@ -3,7 +3,7 @@ series: finance-100
 episode: EP015
 module: M02
 title: "就业、失业率与劳动市场"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
