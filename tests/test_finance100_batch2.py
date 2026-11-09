@@ -25,7 +25,7 @@ class Finance100Batch02Tests(unittest.TestCase):
                          [f"EP{i:03d}" for i in range(31,61)])
         self.assertEqual(len(self.other),40)
         self.assertTrue(all(e["status"]=="in_review" for e in self.episodes))
-        self.assertTrue(all(e["status"]=="planned" for e in self.other))
+        self.assertTrue(all(e["status"] in {"planned","drafting","in_review","approved"} for e in self.other))
         self.assertTrue(all("review.md" in e["files"] and len(e["files"])==5 for e in self.episodes))
 
     def test_every_episode_delivers_full_editorial_package(self):

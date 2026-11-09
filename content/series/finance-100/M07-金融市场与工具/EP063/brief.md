@@ -3,7 +3,7 @@ series: finance-100
 episode: EP063
 module: M07
 title: "债券与信用利差"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

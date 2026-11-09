@@ -3,7 +3,7 @@ series: finance-100
 episode: EP087
 module: M09
 title: "系统性风险与风险传染"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

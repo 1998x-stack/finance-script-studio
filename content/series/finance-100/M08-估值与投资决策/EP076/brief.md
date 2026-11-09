@@ -3,7 +3,7 @@ series: finance-100
 episode: EP076
 module: M08
 title: "EV/EBITDA"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

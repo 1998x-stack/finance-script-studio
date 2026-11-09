@@ -3,37 +3,28 @@ series: finance-100
 episode: EP093
 module: M10
 title: "美元周期与全球流动性"
-status: planned
+status: in_review
+as_of: 2026-11-09
 target_duration_seconds: 180
 ---
 
-# EP093｜美元周期与全球流动性 — 资料与事实核查
+# EP093｜研究证据与事实核查
 
-> **待收集资料**。禁止填充虚构的引用、网页、日期或统计数字。
+**核心问题：**美国利率变化，为什么会影响其他国家的金融市场？
 
-## 本期优先验证
+**因果链：**从美元融资成本→全球资产再定价→新兴市场汇率和外债压力。
 
-- [ ] 权威来源对“美元周期与全球流动性”的定义、统计口径和例外
-- [ ] 简报中因果主线与必要的前提条件
-- [ ] 选定案例的发生日期、主体、金额、单位与原始出处
-- [ ] 重要的反例、反对解释与政策/制度适用边界
+| ID | 来源与机构 | URL | 查阅日 |
+|---|---|---|---|
+| S1 | IMF｜Demand for Safe Assets and Spillovers from the Global Dollar Cycle | https://www.imf.org/en/publications/wp/issues/2025/04/04/demand-for-safe-assets-and-spillovers-from-the-global-dollar-cycle-565749 | 2026-11-09 |
+| S2 | IMF｜Capital Flows to Emerging Markets and Global Nonbanks | https://www.imf.org/en/blogs/articles/2026/04/07/as-emerging-markets-attract-more-nonbank-capital-they-also-face-new-challenges | 2026-11-09 |
 
-## 来源登记（填入真实链接）
+| 论断 | 分类 | 审核要点 |
+|---|---|---|
+| 美元融资条件与全球资本配置相关，利率和风险偏好变化可影响跨境资金成本。 | attributed | S1,S2，先查原文统计口径 |
+| 美元融资依赖较高的企业，可能在美元利率走高时承压。 | scenario | ED，示意金额非现实统计 |
+| 不是美联储每次动作都会触发统一方向的全球资本流动。 | analysis | 税费、法域、币种和适用时间另核 |
 
-| 来源ID | 出处与标题 | URL | 发表/统计日期 | 支持的事实 | 核验状态 |
-|---|---|---|---|---|---|
-| S1 | 待补充 | 待补充 | 待补充 | 待补充 | 待核验 |
+**特定边界：**示例是假设汇率和负债；IMF实证结论不代表所有国家同时同幅受影响。
 
-## 事实—观点区分
-
-- **已证实事实：** 待填
-- **解释性分析：** 待填
-- **假设/类比：** 待填
-- **风险与边界：** 待填
-
-## 复核记录
-
-- [ ] 优先核对一手监管、统计、交易所、公司公告或学术原文
-- [ ] 每一数字标明单位、统计时间、样本与来源
-- [ ] 相关事实与因果推断作明确区分
-- [ ] 发表前重新检查失效链接和时效性
+- [ ] 原始数据与最新制度独立核对；[ ] 货币换算及复利等计算复核；[ ] 朗读校时；[ ] 素材版权和金融合规终审。

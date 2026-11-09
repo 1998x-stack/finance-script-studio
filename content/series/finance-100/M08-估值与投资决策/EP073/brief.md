@@ -3,7 +3,7 @@ series: finance-100
 episode: EP073
 module: M08
 title: "现金流折现估值（DCF）"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

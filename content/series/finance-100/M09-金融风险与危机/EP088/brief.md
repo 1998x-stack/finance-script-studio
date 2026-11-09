@@ -3,7 +3,7 @@ series: finance-100
 episode: EP088
 module: M09
 title: "资产泡沫与明斯基时刻"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

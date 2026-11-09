@@ -3,7 +3,7 @@ series: finance-100
 episode: EP067
 module: M07
 title: "ETF与指数投资"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP090
 module: M09
 title: "压力测试与情景分析"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

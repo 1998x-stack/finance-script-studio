@@ -3,7 +3,7 @@ series: finance-100
 episode: EP062
 module: M07
 title: "IPO、增发与股权稀释"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

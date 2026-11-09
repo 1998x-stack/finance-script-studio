@@ -3,7 +3,7 @@ series: finance-100
 episode: EP081
 module: M09
 title: "波动率与最大回撤"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

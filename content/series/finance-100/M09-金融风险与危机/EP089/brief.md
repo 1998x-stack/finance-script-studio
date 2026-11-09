@@ -3,7 +3,7 @@ series: finance-100
 episode: EP089
 module: M09
 title: "羊群效应与损失厌恶"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

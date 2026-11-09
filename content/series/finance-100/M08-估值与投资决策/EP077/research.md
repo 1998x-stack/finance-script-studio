@@ -3,37 +3,28 @@ series: finance-100
 episode: EP077
 module: M08
 title: "安全边际"
-status: planned
+status: in_review
+as_of: 2026-11-09
 target_duration_seconds: 180
 ---
 
-# EP077｜安全边际 — 资料与事实核查
+# EP077｜事实来源与估值检查
 
-> **待收集资料**。禁止填充虚构的引用、网页、日期或统计数字。
+**问题：**投资者为什么宁可错过，也不想买得太贵？
 
-## 本期优先验证
+**机制：**从估值区间而非单点入手→解释不确定性→构建损失控制思维。
 
-- [ ] 权威来源对“安全边际”的定义、统计口径和例外
-- [ ] 简报中因果主线与必要的前提条件
-- [ ] 选定案例的发生日期、主体、金额、单位与原始出处
-- [ ] 重要的反例、反对解释与政策/制度适用边界
+| ID | 来源 | URL | 查阅日 |
+|---|---|---|---|
+| S1 | CFA Institute｜Free Cash Flow Valuation | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation | 2026-11-09 |
+| S2 | CFA Institute｜Market-Based Valuation: Price and EV Multiples | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples | 2026-11-09 |
 
-## 来源登记（填入真实链接）
+| 内容 | 分类 | 核查提示 |
+|---|---|---|
+| 安全边际是估计内在价值与购买价格之间的缓冲，用来容纳预测误差。 | attributed | S1,S2；核对分子分母与定义 |
+| 估值在80—100元之间，价格95元与60元的容错空间不同。 | scenario | ED，金额均假设，须复算 |
+| 低价不自动代表安全，商业模式恶化会改变内在价值。 | analysis | 不把估值预测写成事实 |
 
-| 来源ID | 出处与标题 | URL | 发表/统计日期 | 支持的事实 | 核验状态 |
-|---|---|---|---|---|---|
-| S1 | 待补充 | 待补充 | 待补充 | 待补充 | 待核验 |
+**关键边界：**估计内在价值非已证事实，不做回本承诺。
 
-## 事实—观点区分
-
-- **已证实事实：** 待填
-- **解释性分析：** 待填
-- **假设/类比：** 待填
-- **风险与边界：** 待填
-
-## 复核记录
-
-- [ ] 优先核对一手监管、统计、交易所、公司公告或学术原文
-- [ ] 每一数字标明单位、统计时间、样本与来源
-- [ ] 相关事实与因果推断作明确区分
-- [ ] 发表前重新检查失效链接和时效性
+- [ ] 复算全部数学；[ ] 核对实际会计与现金流口径；[ ] 逐句出处验证；[ ] 实录、版权、金融合规审查。
