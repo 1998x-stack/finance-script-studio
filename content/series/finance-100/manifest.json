@@ -1,0 +1,1490 @@
+{
+  "version": "1.0",
+  "updated": "2026-11-09",
+  "source": "docs/finance-100-production-blueprint.md",
+  "episode_count": 100,
+  "target_duration_seconds": 180,
+  "publishing_note": "选题策划/占位文件不等于已发表稿件；正式发布由 content/articles/*.json 的 published 状态控制",
+  "modules": [
+    {
+      "id": "M01",
+      "title": "经济学底层逻辑",
+      "description": "从“为什么要选择”到“价格为什么变化”。先建立资源、边际、供需、激励与博弈的共同语言。",
+      "path": "M01-经济学底层逻辑",
+      "episodes": [
+        {
+          "id": "EP001",
+          "title": "稀缺性与机会成本",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP001",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP002",
+          "title": "边际收益与边际成本",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP002",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP003",
+          "title": "供给、需求与均衡价格",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP003",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP004",
+          "title": "需求价格弹性",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP004",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP005",
+          "title": "激励机制",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP005",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP006",
+          "title": "信息不对称",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP006",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP007",
+          "title": "外部性与公共品",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP007",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP008",
+          "title": "规模经济",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP008",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP009",
+          "title": "比较优势",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP009",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP010",
+          "title": "博弈论与囚徒困境",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M01-经济学底层逻辑/EP010",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "title": "宏观经济体检",
+      "description": "从统计数据到真实经济运行。区分总量、速度、价格、就业和长期增长，学会读懂宏观新闻。",
+      "path": "M02-宏观经济体检",
+      "episodes": [
+        {
+          "id": "EP011",
+          "title": "GDP：经济总量",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP011",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP012",
+          "title": "名义增长与实际增长",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP012",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP013",
+          "title": "CPI与PPI",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP013",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP014",
+          "title": "通货膨胀与通货紧缩",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP014",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP015",
+          "title": "就业、失业率与劳动市场",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP015",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP016",
+          "title": "经济周期与领先指标",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP016",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP017",
+          "title": "消费、投资、净出口",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP017",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP018",
+          "title": "储蓄率与投资率",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP018",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP019",
+          "title": "生产率与长期增长",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP019",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP020",
+          "title": "收入分配与边际消费倾向",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M02-宏观经济体检/EP020",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "title": "货币、银行与信用",
+      "description": "理解资金如何进入与退出经济。连接货币供应、银行资产负债表、信贷、融资成本和流动性。",
+      "path": "M03-货币银行与信用",
+      "episodes": [
+        {
+          "id": "EP021",
+          "title": "货币本质与M0/M1/M2",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP021",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP022",
+          "title": "银行贷款与存款创造",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP022",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP023",
+          "title": "存款准备金与基础货币",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP023",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP024",
+          "title": "社会融资规模",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP024",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP025",
+          "title": "信用扩张与信用收缩",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP025",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP026",
+          "title": "名义利率与实际利率",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP026",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP027",
+          "title": "银行净息差",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP027",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP028",
+          "title": "期限错配",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP028",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP029",
+          "title": "流动性与偿付能力",
+          "priority": "A｜推荐首批",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP029",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP030",
+          "title": "金融杠杆与去杠杆",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M03-货币银行与信用/EP030",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "title": "财政与货币政策",
+      "description": "政策不是按钮，而是传导链。追踪政策工具如何影响利率、融资、预期和最终经济活动。",
+      "path": "M04-财政与货币政策",
+      "episodes": [
+        {
+          "id": "EP031",
+          "title": "货币政策目标与传导",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP031",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP032",
+          "title": "降低存款准备金率",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP032",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP033",
+          "title": "政策利率与LPR",
+          "priority": "A｜推荐首批",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP033",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP034",
+          "title": "公开市场操作",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP034",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP035",
+          "title": "财政政策",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP035",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP036",
+          "title": "财政赤字与政府债券",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP036",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP037",
+          "title": "财政乘数效应",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP037",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP038",
+          "title": "政府债务可持续性",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP038",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP039",
+          "title": "政策传导时滞",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP039",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP040",
+          "title": "预期管理与前瞻指引",
+          "priority": "B｜常规储备",
+          "kind": "政策解码",
+          "status": "planned",
+          "path": "M04-财政与货币政策/EP040",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "title": "企业与商业模式",
+      "description": "从营收数字进入公司经营机制。解释产品、成本、客户、竞争壁垒和资本回报的关系。",
+      "path": "M05-企业与商业模式",
+      "episodes": [
+        {
+          "id": "EP041",
+          "title": "商业模式",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP041",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP042",
+          "title": "收入增长与收入质量",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP042",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP043",
+          "title": "毛利率与净利率",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP043",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP044",
+          "title": "固定成本与经营杠杆",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP044",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP045",
+          "title": "单位经济模型",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP045",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP046",
+          "title": "现金转换周期",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP046",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP047",
+          "title": "竞争壁垒与护城河",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP047",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP048",
+          "title": "定价权",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP048",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP049",
+          "title": "市场结构与竞争",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP049",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP050",
+          "title": "资本开支与ROIC",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M05-企业与商业模式/EP050",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "title": "财务报表分析",
+      "description": "从“赚没赚钱”到“能不能活下去”。建立三张报表的关联，识别质量、现金流和债务期限。",
+      "path": "M06-财务报表分析",
+      "episodes": [
+        {
+          "id": "EP051",
+          "title": "资产负债表",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP051",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP052",
+          "title": "利润表",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP052",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP053",
+          "title": "现金流量表",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP053",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP054",
+          "title": "权责发生制与现金制",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP054",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP055",
+          "title": "经营现金流与自由现金流",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP055",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP056",
+          "title": "应收账款与坏账",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP056",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP057",
+          "title": "存货与周转率",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP057",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP058",
+          "title": "商誉与资产减值",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP058",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP059",
+          "title": "债务期限结构与偿债覆盖",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP059",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP060",
+          "title": "ROE与杜邦分析",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M06-财务报表分析/EP060",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "title": "金融市场与工具",
+      "description": "看清每种资产背后的权利和风险。认识股债基金、ETF、REITs与衍生品的现金流及风险。",
+      "path": "M07-金融市场与工具",
+      "episodes": [
+        {
+          "id": "EP061",
+          "title": "股票与股东权利",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP061",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP062",
+          "title": "IPO、增发与股权稀释",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP062",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP063",
+          "title": "债券与信用利差",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP063",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP064",
+          "title": "债券价格与收益率",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP064",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP065",
+          "title": "股权融资与债权融资",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP065",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP066",
+          "title": "主动基金与被动基金",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP066",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP067",
+          "title": "ETF与指数投资",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP067",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP068",
+          "title": "可转换债券",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP068",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP069",
+          "title": "REITs与资产证券化",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP069",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP070",
+          "title": "期货与期权",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M07-金融市场与工具/EP070",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "title": "估值与投资决策",
+      "description": "把好公司与好价格区分开。从时间价值、折现和估值指标进入风险回报与资产配置。",
+      "path": "M08-估值与投资决策",
+      "episodes": [
+        {
+          "id": "EP071",
+          "title": "货币时间价值",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP071",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP072",
+          "title": "复利与复合增长",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP072",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP073",
+          "title": "现金流折现估值（DCF）",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP073",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP074",
+          "title": "市盈率（PE）",
+          "priority": "A｜推荐首批",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP074",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP075",
+          "title": "市净率（PB）",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP075",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP076",
+          "title": "EV/EBITDA",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP076",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP077",
+          "title": "安全边际",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP077",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP078",
+          "title": "风险溢价",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP078",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP079",
+          "title": "资产配置与分散化",
+          "priority": "B｜常规储备",
+          "kind": "个人决策",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP079",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP080",
+          "title": "定投与再平衡",
+          "priority": "B｜常规储备",
+          "kind": "个人决策",
+          "status": "planned",
+          "path": "M08-估值与投资决策/EP080",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "title": "金融风险与危机",
+      "description": "看懂债务如何演变成系统压力。用资产负债表、金融杠杆和风险传导理解热点事件。",
+      "path": "M09-金融风险与危机",
+      "episodes": [
+        {
+          "id": "EP081",
+          "title": "波动率与最大回撤",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP081",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP082",
+          "title": "信用风险与违约",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP082",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP083",
+          "title": "流动性危机与挤兑",
+          "priority": "A｜推荐首批",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP083",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP084",
+          "title": "资产负债表衰退",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP084",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP085",
+          "title": "房地产预售与融资链条",
+          "priority": "A｜推荐首批",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP085",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP086",
+          "title": "城投平台与地方隐性债务",
+          "priority": "A｜推荐首批",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP086",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP087",
+          "title": "系统性风险与风险传染",
+          "priority": "A｜推荐首批",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP087",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP088",
+          "title": "资产泡沫与明斯基时刻",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP088",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP089",
+          "title": "羊群效应与损失厌恶",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP089",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP090",
+          "title": "压力测试与情景分析",
+          "priority": "B｜常规储备",
+          "kind": "热点解释",
+          "status": "planned",
+          "path": "M09-金融风险与危机/EP090",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M10",
+      "title": "全球金融与个人财务",
+      "description": "连接国际经济和个人现金流。以汇率、贸易和全球资金解释外部冲击，以预算与保障落地。",
+      "path": "M10-全球金融与个人财务",
+      "episodes": [
+        {
+          "id": "EP091",
+          "title": "汇率与升贬值",
+          "priority": "A｜推荐首批",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP091",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP092",
+          "title": "国际收支平衡表",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP092",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP093",
+          "title": "美元周期与全球流动性",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP093",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP094",
+          "title": "贸易差额与经常账户",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP094",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP095",
+          "title": "跨境资本流动",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP095",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP096",
+          "title": "大宗商品与输入性通胀",
+          "priority": "B｜常规储备",
+          "kind": "机制深挖",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP096",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP097",
+          "title": "家庭预算与现金流",
+          "priority": "B｜常规储备",
+          "kind": "基础破圈",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP097",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP098",
+          "title": "应急储备与保险保障",
+          "priority": "A｜推荐首批",
+          "kind": "个人决策",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP098",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP099",
+          "title": "负债成本与债务管理",
+          "priority": "B｜常规储备",
+          "kind": "个人决策",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP099",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        },
+        {
+          "id": "EP100",
+          "title": "养老规划与真实购买力",
+          "priority": "B｜常规储备",
+          "kind": "个人决策",
+          "status": "planned",
+          "path": "M10-全球金融与个人财务/EP100",
+          "files": [
+            "brief.md",
+            "script.md",
+            "research.md",
+            "storyboard.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -24,14 +24,17 @@ python3 -m http.server 8000 --directory _site
 
 **四个栏目：** `event` 财经事件背后的真问题 / `company` 一家公司的商业逻辑 / `policy` 政策背后的经济机制 / `concept` 每天一个商业认知。
 
-## 100 个核心财经概念
+## 100 个核心财经概念（现行制作版）
 
-按 10 大模块 × 10 个概念整理了可连续制作的三分钟口播课程地图，含每期独立的核心问题与内容质量门槛：
+**10 个模块 × 100 期、每期约180秒。** 本次已把完整选题总纲上传并建立每期独立的简报、逐字稿、资料核验、分镜占位文件：
 
-- [财经核心100概念：180秒口播课程地图](docs/finance-100-concept-map.md)
-- [交付审计与 GitHub Pages 上线清单](docs/handover-and-release.md)
+- [2026-11-09 完整选题总纲](docs/finance-100-production-blueprint.md)（当前制作依据）
+- [100期分模块工作区与进度索引](content/series/finance-100/README.md)
+- [100期机器可读清单（manifest）](content/series/finance-100/manifest.json)
+- [分批写稿/审稿/发布指南](docs/finance-100-workflow.md)
+- [早期100概念课程地图](docs/finance-100-concept-map.md)（历史参考，期号与现行方案不一致）
 
-课程地图不等于100份已发表文稿；需逐期核实案例和来源，发布状态以 `content/articles/` 为准。
+这些是**创作占位文件，不是100篇已经完成的逐字稿**。正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制，现有网站和已发表内容不受影响。
 
 ## Skill 部署
 
