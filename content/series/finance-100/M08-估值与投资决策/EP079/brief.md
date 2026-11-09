@@ -3,7 +3,7 @@ series: finance-100
 episode: EP079
 module: M08
 title: "资产配置与分散化"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

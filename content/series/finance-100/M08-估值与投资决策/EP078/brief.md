@@ -3,7 +3,7 @@ series: finance-100
 episode: EP078
 module: M08
 title: "风险溢价"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

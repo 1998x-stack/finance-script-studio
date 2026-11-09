@@ -3,7 +3,7 @@ series: finance-100
 episode: EP072
 module: M08
 title: "复利与复合增长"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

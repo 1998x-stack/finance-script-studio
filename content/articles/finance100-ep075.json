@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "slug": "finance100-ep075",
+  "title": "EP075｜市净率（PB）：三分钟讲清",
+  "subtitle": "估值教学初稿，非具体投资建议",
+  "lead": "银行和软件公司的市净率差别很大，能否说市净率低的必然更值得买？PB把股价和账面净资产放在一起，但两者的会计意义并不相同。",
+  "category": "concept",
+  "status": "draft",
+  "published_at": "2026-11-09",
+  "updated_at": "2026-11-09",
+  "as_of": "2026-11-09",
+  "reading_minutes": 4,
+  "video_seconds": 180,
+  "keywords": [
+    "市净率（PB）",
+    "M08",
+    "财经100概念"
+  ],
+  "summary": "比较PB，要把ROE、资产减值、盈利质量、净资产计量方法一起放进图里。账面价值是会计尺子，不是资产兑现时的保底承诺。",
+  "key_numbers": [
+    {
+      "label": "目标口播时长",
+      "value": "180",
+      "unit": "秒",
+      "period": "制作计划",
+      "detail": "未经过试读确认",
+      "source_ids": [
+        "ED"
+      ]
+    }
+  ],
+  "takeaways": [
+    "市净率PB通常是股价除以每股账面权益，或者总市值除以可归属股东的净资产。它展示市场给账面权益的定价，不等于企业清算时能卖出多少钱。",
+    "净资产为负时PB可能失去正常解释性。会计计量、公允价值、历史成本、回购及商誉都可能改变分母。PB低于一也不保证股价回归账面价值，市场可能合理质疑未来回报。",
+    "比较PB，要把ROE、资产减值、盈利质量、净资产计量方法一起放进图里。账面价值是会计尺子，不是资产兑现时的保底承诺。"
+  ],
+  "sections": [
+    {
+      "heading": "估值概念",
+      "paragraphs": [
+        {
+          "text": "市净率PB通常是股价除以每股账面权益，或者总市值除以可归属股东的净资产。它展示市场给账面权益的定价，不等于企业清算时能卖出多少钱。",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "模型与示例",
+      "paragraphs": [
+        {
+          "text": "假设一家企业账面归母净资产十亿元，市值十五亿元，PB就是一点五倍。另一家市值十亿元、净资产也是十亿元，PB为一倍，却不一定更便宜：如果第二家有大量难变现资产、潜在减值或低回报项目，账面权益质量会影响意义。无形品牌和员工技能往往难以在账上完整体现，所以轻资产企业可能PB偏高；金融机构还需要分析资产质量与资本监管。",
+          "source_ids": [
+            "S1",
+            "ED"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "误解与结论",
+      "paragraphs": [
+        {
+          "text": "净资产为负时PB可能失去正常解释性。会计计量、公允价值、历史成本、回购及商誉都可能改变分母。PB低于一也不保证股价回归账面价值，市场可能合理质疑未来回报。\n比较PB，要把ROE、资产减值、盈利质量、净资产计量方法一起放进图里。账面价值是会计尺子，不是资产兑现时的保底承诺。",
+          "source_ids": [
+            "S1",
+            "ED"
+          ]
+        }
+      ]
+    }
+  ],
+  "voiceover": [
+    {
+      "start": 0,
+      "end": 15,
+      "stage": "钩子",
+      "text": "银行和软件公司的市净率差别很大，能否说市净率低的必然更值得买？PB把股价和账面净资产放在一起，但两者的会计意义并不相同。",
+      "shot": "PB低就一定便宜吗"
+    },
+    {
+      "start": 15,
+      "end": 45,
+      "stage": "定义",
+      "text": "市净率PB通常是股价除以每股账面权益，或者总市值除以可归属股东的净资产。它展示市场给账面权益的定价，不等于企业清算时能卖出多少钱。",
+      "shot": "PB分子分母"
+    },
+    {
+      "start": 45,
+      "end": 105,
+      "stage": "案例与机制",
+      "text": "假设一家企业账面归母净资产十亿元，市值十五亿元，PB就是一点五倍。另一家市值十亿元、净资产也是十亿元，PB为一倍，却不一定更便宜：如果第二家有大量难变现资产、潜在减值或低回报项目，账面权益质量会影响意义。无形品牌和员工技能往往难以在账上完整体现，所以轻资产企业可能PB偏高；金融机构还需要分析资产质量与资本监管。",
+      "shot": "15亿/10亿=1.5"
+    },
+    {
+      "start": 105,
+      "end": 150,
+      "stage": "边界",
+      "text": "净资产为负时PB可能失去正常解释性。会计计量、公允价值、历史成本、回购及商誉都可能改变分母。PB低于一也不保证股价回归账面价值，市场可能合理质疑未来回报。",
+      "shot": "资产质量与负权益"
+    },
+    {
+      "start": 150,
+      "end": 180,
+      "stage": "迁移",
+      "text": "比较PB，要把ROE、资产减值、盈利质量、净资产计量方法一起放进图里。账面价值是会计尺子，不是资产兑现时的保底承诺。",
+      "shot": "PB与ROE同看"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "CFA Institute｜Market-Based Valuation: Price and EV Multiples",
+      "publisher": "CFA Institute",
+      "published_at": "2026-11-09",
+      "type": "CFA/SEC专业参考；2026-11-09为网页查阅日，原出版日须在终审另核",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples"
+    },
+    {
+      "id": "ED",
+      "title": "财经100概念总纲与教学假设",
+      "publisher": "Finance Script Studio",
+      "published_at": "2026-11-09",
+      "type": "原创演示，不是实际交易或估值报告",
+      "url": "https://github.com/1998x-stack/finance-script-studio/blob/main/docs/finance-100-production-blueprint.md"
+    }
+  ],
+  "fact_checks": [
+    {
+      "claim": "市净率（PB）的模型定义和假设需对照专业来源复核",
+      "status": "attributed",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "claim": "所有数值计算为教学情景，非行情和投资承诺",
+      "status": "scenario",
+      "source_ids": [
+        "ED"
+      ]
+    }
+  ]
+}

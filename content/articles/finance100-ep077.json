@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "slug": "finance100-ep077",
+  "title": "EP077｜安全边际：三分钟讲清",
+  "subtitle": "估值教学初稿，非具体投资建议",
+  "lead": "估算公司值一百元，股价八十元，是不是就有百分之二十的安全收益？这恰恰是安全边际最容易被误解的地方。",
+  "category": "concept",
+  "status": "draft",
+  "published_at": "2026-11-09",
+  "updated_at": "2026-11-09",
+  "as_of": "2026-11-09",
+  "reading_minutes": 4,
+  "video_seconds": 180,
+  "keywords": [
+    "安全边际",
+    "M08",
+    "财经100概念"
+  ],
+  "summary": "下一次听见‘低估百分之三十’，请先问估值依据、压力情景和所需时间，而不是把折价当收益率。安全边际保护的是决策空间，不是消除风险。",
+  "key_numbers": [
+    {
+      "label": "目标口播时长",
+      "value": "180",
+      "unit": "秒",
+      "period": "制作计划",
+      "detail": "未经过试读确认",
+      "source_ids": [
+        "ED"
+      ]
+    }
+  ],
+  "takeaways": [
+    "安全边际是一种估值纪律：在估计价值具有不确定性时，要求买入价格与保守估计值之间有一定空间。它不是证券发行人提供的本金保障，也不是价格跌不破的技术支撑位。",
+    "所谓‘价值’并不是一个可直接观察的市场事实；没有人能保证价格一定向估值收敛。流动性变化、治理风险、会计失真甚至宏观冲击都可能延长或放大损失。",
+    "下一次听见‘低估百分之三十’，请先问估值依据、压力情景和所需时间，而不是把折价当收益率。安全边际保护的是决策空间，不是消除风险。"
+  ],
+  "sections": [
+    {
+      "heading": "估值概念",
+      "paragraphs": [
+        {
+          "text": "安全边际是一种估值纪律：在估计价值具有不确定性时，要求买入价格与保守估计值之间有一定空间。它不是证券发行人提供的本金保障，也不是价格跌不破的技术支撑位。",
+          "source_ids": [
+            "S1",
+            "S2"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "模型与示例",
+      "paragraphs": [
+        {
+          "text": "假设你基于现金流预测估算某资产价值一百元，当前价格八十元，按价值为分母的折价是百分之二十。但估值本身也可能有错：如果长期销量比预测低、资本成本高或合同终止，真实可实现价值可能只有六十元。安全边际看起来存在，实际却不足。正确做法是准备基准、谨慎和压力三套情景，明确价值会被哪些假设推翻。",
+          "source_ids": [
+            "S1",
+            "S2",
+            "ED"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "误解与结论",
+      "paragraphs": [
+        {
+          "text": "所谓‘价值’并不是一个可直接观察的市场事实；没有人能保证价格一定向估值收敛。流动性变化、治理风险、会计失真甚至宏观冲击都可能延长或放大损失。\n下一次听见‘低估百分之三十’，请先问估值依据、压力情景和所需时间，而不是把折价当收益率。安全边际保护的是决策空间，不是消除风险。",
+          "source_ids": [
+            "S1",
+            "S2",
+            "ED"
+          ]
+        }
+      ]
+    }
+  ],
+  "voiceover": [
+    {
+      "start": 0,
+      "end": 15,
+      "stage": "钩子",
+      "text": "估算公司值一百元，股价八十元，是不是就有百分之二十的安全收益？这恰恰是安全边际最容易被误解的地方。",
+      "shot": "估值100市价80"
+    },
+    {
+      "start": 15,
+      "end": 45,
+      "stage": "定义",
+      "text": "安全边际是一种估值纪律：在估计价值具有不确定性时，要求买入价格与保守估计值之间有一定空间。它不是证券发行人提供的本金保障，也不是价格跌不破的技术支撑位。",
+      "shot": "折价不等于收益"
+    },
+    {
+      "start": 45,
+      "end": 105,
+      "stage": "案例与机制",
+      "text": "假设你基于现金流预测估算某资产价值一百元，当前价格八十元，按价值为分母的折价是百分之二十。但估值本身也可能有错：如果长期销量比预测低、资本成本高或合同终止，真实可实现价值可能只有六十元。安全边际看起来存在，实际却不足。正确做法是准备基准、谨慎和压力三套情景，明确价值会被哪些假设推翻。",
+      "shot": "实际价值可能60"
+    },
+    {
+      "start": 105,
+      "end": 150,
+      "stage": "边界",
+      "text": "所谓‘价值’并不是一个可直接观察的市场事实；没有人能保证价格一定向估值收敛。流动性变化、治理风险、会计失真甚至宏观冲击都可能延长或放大损失。",
+      "shot": "三种情景"
+    },
+    {
+      "start": 150,
+      "end": 180,
+      "stage": "迁移",
+      "text": "下一次听见‘低估百分之三十’，请先问估值依据、压力情景和所需时间，而不是把折价当收益率。安全边际保护的是决策空间，不是消除风险。",
+      "shot": "安全边际三问"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "CFA Institute｜Free Cash Flow Valuation",
+      "publisher": "CFA Institute",
+      "published_at": "2026-11-09",
+      "type": "CFA/SEC专业参考；2026-11-09为网页查阅日，原出版日须在终审另核",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation"
+    },
+    {
+      "id": "S2",
+      "title": "CFA Institute｜Market-Based Valuation: Price and EV Multiples",
+      "publisher": "CFA Institute",
+      "published_at": "2026-11-09",
+      "type": "CFA/SEC专业参考；2026-11-09为网页查阅日，原出版日须在终审另核",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples"
+    },
+    {
+      "id": "ED",
+      "title": "财经100概念总纲与教学假设",
+      "publisher": "Finance Script Studio",
+      "published_at": "2026-11-09",
+      "type": "原创演示，不是实际交易或估值报告",
+      "url": "https://github.com/1998x-stack/finance-script-studio/blob/main/docs/finance-100-production-blueprint.md"
+    }
+  ],
+  "fact_checks": [
+    {
+      "claim": "安全边际的模型定义和假设需对照专业来源复核",
+      "status": "attributed",
+      "source_ids": [
+        "S1",
+        "S2"
+      ]
+    },
+    {
+      "claim": "所有数值计算为教学情景，非行情和投资承诺",
+      "status": "scenario",
+      "source_ids": [
+        "ED"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP071
 module: M08
 title: "货币时间价值"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

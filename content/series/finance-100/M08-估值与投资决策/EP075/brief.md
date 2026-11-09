@@ -3,7 +3,7 @@ series: finance-100
 episode: EP075
 module: M08
 title: "市净率（PB）"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

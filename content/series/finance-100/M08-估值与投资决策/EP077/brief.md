@@ -3,7 +3,7 @@ series: finance-100
 episode: EP077
 module: M08
 title: "安全边际"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

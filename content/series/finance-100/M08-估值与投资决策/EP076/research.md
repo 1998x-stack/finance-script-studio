@@ -3,37 +3,28 @@ series: finance-100
 episode: EP076
 module: M08
 title: "EV/EBITDA"
-status: planned
+status: in_review
+as_of: 2026-11-09
 target_duration_seconds: 180
 ---
 
-# EP076｜EV/EBITDA — 资料与事实核查
+# EP076｜事实来源与估值检查
 
-> **待收集资料**。禁止填充虚构的引用、网页、日期或统计数字。
+**问题：**为什么估值公司时，有时要把债务也算进去？
 
-## 本期优先验证
+**机制：**用股权价值+净债务理解EV→解释EBITDA用途→指出资本开支局限。
 
-- [ ] 权威来源对“EV/EBITDA”的定义、统计口径和例外
-- [ ] 简报中因果主线与必要的前提条件
-- [ ] 选定案例的发生日期、主体、金额、单位与原始出处
-- [ ] 重要的反例、反对解释与政策/制度适用边界
+| ID | 来源 | URL | 查阅日 |
+|---|---|---|---|
+| S1 | CFA Institute｜Market-Based Valuation: Price and EV Multiples | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples | 2026-11-09 |
+| S2 | CFA Institute｜Free Cash Flow Valuation | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/free-cash-flow-valuation | 2026-11-09 |
 
-## 来源登记（填入真实链接）
+| 内容 | 分类 | 核查提示 |
+|---|---|---|
+| 企业价值EV关注经营资产整体价值，EV/EBITDA常用于比较不同资本结构的企业。 | attributed | S1,S2；核对分子分母与定义 |
+| 两家经营相似公司债务不同，单比市值可能失真。 | scenario | ED，金额均假设，须复算 |
+| EBITDA不是自由现金流，重资产行业尤其需看维护投资。 | analysis | 不把估值预测写成事实 |
 
-| 来源ID | 出处与标题 | URL | 发表/统计日期 | 支持的事实 | 核验状态 |
-|---|---|---|---|---|---|
-| S1 | 待补充 | 待补充 | 待补充 | 待补充 | 待核验 |
+**关键边界：**简化EV漏掉少数股东、优先股等项目；EBITDA不是FCF。
 
-## 事实—观点区分
-
-- **已证实事实：** 待填
-- **解释性分析：** 待填
-- **假设/类比：** 待填
-- **风险与边界：** 待填
-
-## 复核记录
-
-- [ ] 优先核对一手监管、统计、交易所、公司公告或学术原文
-- [ ] 每一数字标明单位、统计时间、样本与来源
-- [ ] 相关事实与因果推断作明确区分
-- [ ] 发表前重新检查失效链接和时效性
+- [ ] 复算全部数学；[ ] 核对实际会计与现金流口径；[ ] 逐句出处验证；[ ] 实录、版权、金融合规审查。

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP080
 module: M08
 title: "定投与再平衡"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
