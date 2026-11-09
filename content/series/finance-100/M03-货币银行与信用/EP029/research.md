@@ -22,13 +22,13 @@ target_duration_seconds: 180
 
 | 来源ID | 机构/资料 | 链接 | 本次查阅日期 | 核查说明 |
 |---|---|---|---|---|
-| S1 | 国际清算银行/巴塞尔委员会｜Basel Committee｜Liquidity Coverage Ratio | https://www.bis.org/committees/bcbs/basel-framework/standard/lcr?allChapters=true | 2026-11-09 | 短期流动性覆盖及压力情景，注意各法域的监管适用规则，本次查阅日 2026-11-09 |
+| S1 | Basel Committee｜Liquidity Coverage Ratio — LCR30 | https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/30/inforce/2019-12-15/published/2020-06-05 | 2026-11-09 | 短期流动性覆盖及压力情景，注意各法域的监管适用规则，本次查阅日 2026-11-09 |
 
 ## 核心断言登记
 
 | ID | 断言或教学内容 | 证据 | 属性 | 分类 |
 |---|---|---|---|---|
-| F1 | 流动性与偿付能力 的概念定义及机制 | Basel Committee｜Liquidity Coverage Ratio | 原理依据，需对照具体章节复核 | concept_reference |
+| F1 | 流动性与偿付能力 的概念定义及机制 | Basel Committee｜Liquidity Coverage Ratio — LCR30 | 原理依据，需对照具体章节复核 | concept_reference |
 | H1 | 公司持有难出售的土地，却面临下周到期的借款。 | 本期脚本假设案例 | 假设，非真实新闻 | scenario |
 | A1 | 两者相互影响但不等同：廉价抛售资产可能使流动性问题恶化为偿付问题。 | 本期分析 | 适用边界，人工复核 | analysis |
 

@@ -22,14 +22,14 @@ target_duration_seconds: 180
 
 | 来源ID | 机构/资料 | 链接 | 本次查阅日期 | 核查说明 |
 |---|---|---|---|---|
-| S1 | 国际清算银行/巴塞尔委员会｜Basel Committee｜Basel Framework | https://www.bis.org/committees/bcbs/basel-framework | 2026-11-09 | 银行杠杆率、流动性覆盖率与稳定资金的监管框架，本次查阅日 2026-11-09 |
+| S1 | OpenStax｜How a Central Bank Executes Monetary Policy | https://openstax.org/books/principles-economics-3e/pages/28-3-how-a-central-bank-executes-monetary-policy | 2026-11-09 | 银行杠杆率、流动性覆盖率与稳定资金的监管框架，本次查阅日 2026-11-09 |
 | S2 | OpenStax｜OpenStax｜Principles of Economics 3e（货币与银行相关章节索引） | https://openstax.org/books/principles-economics-3e/pages/index | 2026-11-09 | 货币、银行与金融体系的教材概念索引 |
 
 ## 核心断言登记
 
 | ID | 断言或教学内容 | 证据 | 属性 | 分类 |
 |---|---|---|---|---|
-| F1 | 存款准备金与基础货币 的概念定义及机制 | Basel Committee｜Basel Framework | 原理依据，需对照具体章节复核 | concept_reference |
+| F1 | 存款准备金与基础货币 的概念定义及机制 | OpenStax｜How a Central Bank Executes Monetary Policy | 原理依据，需对照具体章节复核 | concept_reference |
 | H1 | 银行可动用资金增加，但企业不借钱时未必转为新增贷款。 | 本期脚本假设案例 | 假设，非真实新闻 | scenario |
 | A1 | 降准释放的流动性，不能直接推算为等额新增贷款或GDP。 | 本期分析 | 适用边界，人工复核 | analysis |
 

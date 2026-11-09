@@ -22,13 +22,13 @@ target_duration_seconds: 180
 
 | 来源ID | 机构/资料 | 链接 | 本次查阅日期 | 核查说明 |
 |---|---|---|---|---|
-| S1 | 国际清算银行/巴塞尔委员会｜Basel Committee｜Basel Framework | https://www.bis.org/committees/bcbs/basel-framework | 2026-11-09 | 银行杠杆率、流动性覆盖率与稳定资金的监管框架，本次查阅日 2026-11-09 |
+| S1 | Basel Committee｜Leverage Ratio — LEV10 | https://www.bis.org/committees/bcbs/basel-framework/standard/lev/10/inforce/2023-01-01/published/2020-03-27 | 2026-11-09 | 银行杠杆率、流动性覆盖率与稳定资金的监管框架，本次查阅日 2026-11-09 |
 
 ## 核心断言登记
 
 | ID | 断言或教学内容 | 证据 | 属性 | 分类 |
 |---|---|---|---|---|
-| F1 | 金融杠杆与去杠杆 的概念定义及机制 | Basel Committee｜Basel Framework | 原理依据，需对照具体章节复核 | concept_reference |
+| F1 | 金融杠杆与去杠杆 的概念定义及机制 | Basel Committee｜Leverage Ratio — LEV10 | 原理依据，需对照具体章节复核 | concept_reference |
 | H1 | 100万元资产中有80万元借款，资产跌20万元时权益可能被侵蚀。 | 本期脚本假设案例 | 假设，非真实新闻 | scenario |
 | A1 | 高杠杆不必然高风险，需同时看现金流稳定性、期限与抵押安排。 | 本期分析 | 适用边界，人工复核 | analysis |
 
