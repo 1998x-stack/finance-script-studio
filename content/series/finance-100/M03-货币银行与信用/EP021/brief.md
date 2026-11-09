@@ -3,7 +3,7 @@ series: finance-100
 episode: EP021
 module: M03
 title: "货币本质与M0/M1/M2"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

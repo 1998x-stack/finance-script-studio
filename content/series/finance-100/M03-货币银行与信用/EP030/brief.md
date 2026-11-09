@@ -3,7 +3,7 @@ series: finance-100
 episode: EP030
 module: M03
 title: "金融杠杆与去杠杆"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

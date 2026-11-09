@@ -3,7 +3,7 @@ series: finance-100
 episode: EP024
 module: M03
 title: "社会融资规模"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

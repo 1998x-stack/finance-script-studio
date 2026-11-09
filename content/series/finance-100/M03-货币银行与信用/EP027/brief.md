@@ -3,7 +3,7 @@ series: finance-100
 episode: EP027
 module: M03
 title: "银行净息差"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

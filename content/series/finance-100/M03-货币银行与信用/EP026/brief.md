@@ -3,7 +3,7 @@ series: finance-100
 episode: EP026
 module: M03
 title: "名义利率与实际利率"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

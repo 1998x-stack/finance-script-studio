@@ -3,7 +3,7 @@ series: finance-100
 episode: EP028
 module: M03
 title: "期限错配"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
