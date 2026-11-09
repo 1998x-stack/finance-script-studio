@@ -1,0 +1,33 @@
+{
+  "name": "财经理性观察",
+  "tagline": "事实有出处，观点有边界。",
+  "description": "以一则财经事件，讲透一个商业规律。专业财经调查、口播分镜与来源透明的深度解读。",
+  "base_url": "https://1998x-stack.github.io/finance-script-studio/",
+  "author": "Finance Script Studio 编辑部",
+  "categories": {
+    "event": {
+      "label": "财经事件背后的真问题",
+      "description": "从热点事件追问流动性、债务和风险传导。",
+      "short": "事件解读",
+      "number": "01"
+    },
+    "company": {
+      "label": "一家公司的商业逻辑",
+      "description": "拆解收入、利润和商业模式的长期韧性。",
+      "short": "公司研究",
+      "number": "02"
+    },
+    "policy": {
+      "label": "政策背后的经济机制",
+      "description": "追踪政策如何作用于企业与真实经济。",
+      "short": "政策观察",
+      "number": "03"
+    },
+    "concept": {
+      "label": "每天一个商业认知",
+      "description": "让现金流、杠杆和估值变得可以理解。",
+      "short": "金融知识",
+      "number": "04"
+    }
+  }
+}
