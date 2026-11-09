@@ -3,7 +3,7 @@ series: finance-100
 episode: EP049
 module: M05
 title: "市场结构与竞争"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

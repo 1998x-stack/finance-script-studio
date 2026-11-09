@@ -3,7 +3,7 @@ series: finance-100
 episode: EP044
 module: M05
 title: "固定成本与经营杠杆"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

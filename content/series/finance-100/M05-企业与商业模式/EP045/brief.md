@@ -3,7 +3,7 @@ series: finance-100
 episode: EP045
 module: M05
 title: "单位经济模型"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP046
 module: M05
 title: "现金转换周期"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

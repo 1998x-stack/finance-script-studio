@@ -3,7 +3,7 @@ series: finance-100
 episode: EP042
 module: M05
 title: "收入增长与收入质量"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
