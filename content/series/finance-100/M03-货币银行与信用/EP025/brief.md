@@ -3,7 +3,7 @@ series: finance-100
 episode: EP025
 module: M03
 title: "信用扩张与信用收缩"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

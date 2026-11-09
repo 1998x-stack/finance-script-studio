@@ -3,7 +3,7 @@ series: finance-100
 episode: EP001
 module: M01
 title: "稀缺性与机会成本"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

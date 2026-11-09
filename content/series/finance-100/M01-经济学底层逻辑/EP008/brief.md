@@ -3,7 +3,7 @@ series: finance-100
 episode: EP008
 module: M01
 title: "规模经济"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

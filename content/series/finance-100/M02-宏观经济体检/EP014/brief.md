@@ -3,7 +3,7 @@ series: finance-100
 episode: EP014
 module: M02
 title: "通货膨胀与通货紧缩"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

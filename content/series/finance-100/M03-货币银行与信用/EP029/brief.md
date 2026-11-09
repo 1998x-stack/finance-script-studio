@@ -3,7 +3,7 @@ series: finance-100
 episode: EP029
 module: M03
 title: "流动性与偿付能力"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

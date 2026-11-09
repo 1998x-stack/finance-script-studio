@@ -3,7 +3,7 @@ series: finance-100
 episode: EP010
 module: M01
 title: "博弈论与囚徒困境"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

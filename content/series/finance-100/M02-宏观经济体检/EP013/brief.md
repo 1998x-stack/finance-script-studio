@@ -3,7 +3,7 @@ series: finance-100
 episode: EP013
 module: M02
 title: "CPI与PPI"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

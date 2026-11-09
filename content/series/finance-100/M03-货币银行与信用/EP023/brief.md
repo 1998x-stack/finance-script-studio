@@ -3,7 +3,7 @@ series: finance-100
 episode: EP023
 module: M03
 title: "存款准备金与基础货币"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP004
 module: M01
 title: "需求价格弹性"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP012
 module: M02
 title: "名义增长与实际增长"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

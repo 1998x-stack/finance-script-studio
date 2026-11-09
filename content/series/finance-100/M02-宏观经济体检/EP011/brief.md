@@ -3,7 +3,7 @@ series: finance-100
 episode: EP011
 module: M02
 title: "GDP：经济总量"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

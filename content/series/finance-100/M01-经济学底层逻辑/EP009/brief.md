@@ -3,7 +3,7 @@ series: finance-100
 episode: EP009
 module: M01
 title: "比较优势"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP022
 module: M03
 title: "银行贷款与存款创造"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
