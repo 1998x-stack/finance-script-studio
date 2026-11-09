@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "slug": "example-company-research",
+  "title": "示例：一家公司的商业逻辑",
+  "subtitle": "仅用于展示字段结构，不构成已发布稿件。",
+  "lead": "把这里替换为能吸引观众、并能被资料回答的真实问题。",
+  "category": "company",
+  "status": "draft",
+  "published_at": "2026-11-09",
+  "updated_at": "2026-11-09",
+  "as_of": "2026-11-09",
+  "reading_minutes": 7,
+  "video_seconds": 180,
+  "keywords": [
+    "珠海华发",
+    "华发集团",
+    "流动性",
+    "信用债",
+    "国有企业",
+    "经营现金流",
+    "财经口播"
+  ],
+  "summary": "填写一个可迁移的商业规律。",
+  "key_numbers": [
+    {
+      "label": "示例指标",
+      "value": "0",
+      "unit": "单位",
+      "period": "YYYY年XX月",
+      "detail": "填写真实口径",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ],
+  "takeaways": [
+    "填写真实结论1",
+    "填写真实结论2"
+  ],
+  "sections": [
+    {
+      "heading": "问题与证据",
+      "paragraphs": [
+        {
+          "text": "请用可核实的事实替换这段示例文字。",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ]
+    }
+  ],
+  "voiceover": [
+    {
+      "start": 0,
+      "end": 180,
+      "stage": "待编辑",
+      "text": "正式撰稿时替换成完整的180秒口播稿，并分成5—8段。",
+      "shot": "对应画面"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "待替换的公开原始来源",
+      "publisher": "待填写",
+      "published_at": "2026-11-09",
+      "type": "占位来源",
+      "url": "https://example.org/source"
+    }
+  ],
+  "fact_checks": [
+    {
+      "claim": "这是模板，严禁直接发布。",
+      "status": "attributed",
+      "source_ids": [
+        "S1"
+      ]
+    }
+  ]
+}
