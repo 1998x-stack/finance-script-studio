@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 标题/机构 | URL | 出版日/资料期 | 用途和已知限制 |
 |---|---|---|---|---|
 | S1 | 财政部｜企业会计准则第8号——资产减值 | https://kjs.mof.gov.cn/zt/kjzzss/kuaijizhunzeshishi/200806/t20080618_46240.htm | 2008-06-18 | 可收回金额及商誉每年减值测试的准则 |
-| S2 | CFA Institute｜Analyzing Balance Sheets（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets | 2026-01-01 | 资产、负债、权益和资产计量差异；年份已知，月份日期为元数据占位 |
+| S2 | CFA Institute｜Analyzing Balance Sheets（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-balance-sheets | 2026-11-09（查阅日；原发布日期待核） | 资产、负债、权益和资产计量差异；年份已知，月份日期为元数据占位 |
 
 ## 断言核查清单
 

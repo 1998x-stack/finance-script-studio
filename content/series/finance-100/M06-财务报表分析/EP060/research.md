@@ -20,7 +20,7 @@ target_duration_seconds: 180
 
 | ID | 标题/机构 | URL | 出版日/资料期 | 用途和已知限制 |
 |---|---|---|---|---|
-| S1 | CFA Institute｜Financial Analysis Techniques（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-01-01 | 杜邦拆解、流动性、偿债和盈利比率，日期为课程年份占位 |
+| S1 | CFA Institute｜Financial Analysis Techniques（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-09（查阅日；原发布日期待核） | 杜邦拆解、流动性、偿债和盈利比率，日期为课程年份占位 |
 | S2 | CFA Institute｜Financial Ratio List | https://www.cfainstitute.org/sites/default/files/-/media/documents/support/programs/cfa/cfa_program_level_ii_financial_ratio_list.pdf | 2026-11-09 | 财务比率计算公式；日期为查阅快照，非原始发布日 |
 
 ## 断言核查清单
