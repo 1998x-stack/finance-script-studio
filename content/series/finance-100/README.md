@@ -1,12 +1,13 @@
 # 财经100个核心概念｜逐期创作工作区
 
-> 总计 10 大模块 × 10 期，每期目标约 180 秒。**EP001–EP060 已有完整的口播初稿、分镜和来源记录，均处于 in_review；EP061–EP100 仍为占位。全部未获人工终审，不会自动公开发布。**
+> 总计 10 大模块 × 10 期，每期目标约 180 秒。**EP001–EP100 全部已有口播初稿、来源与分镜、审稿记录，状态均为 in_review。100期尚未获人工终审，全部不会自动公开发布。**
 
 - [完整选题总纲](../../../docs/finance-100-production-blueprint.md)
 - [逐期撰稿与发布工作流](../../../docs/finance-100-workflow.md)
 - [结构化期号索引](./manifest.json)
 - [第一批交付与人工审稿指南](../../../docs/finance-100-batch-01-report.md)
 - [第二批M04–M06交付与审核报告](../../../docs/finance-100-batch-02-report.md)
+- [七章M04–M10合并交付与新写40期报告](../../../docs/finance-100-batch-03-seven-chapters.md)
 
 ## 模块目录
 
@@ -18,15 +19,15 @@
 | M04 | [财政与货币政策](./M04-财政与货币政策/README.md) | EP031–EP040（待人工复核） |
 | M05 | [企业与商业模式](./M05-企业与商业模式/README.md) | EP041–EP050（待人工复核） |
 | M06 | [财务报表分析](./M06-财务报表分析/README.md) | EP051–EP060（待人工复核） |
-| M07 | [金融市场与工具](./M07-金融市场与工具/README.md) | EP061–EP070 |
-| M08 | [估值与投资决策](./M08-估值与投资决策/README.md) | EP071–EP080 |
-| M09 | [金融风险与危机](./M09-金融风险与危机/README.md) | EP081–EP090 |
-| M10 | [全球金融与个人财务](./M10-全球金融与个人财务/README.md) | EP091–EP100 |
+| M07 | [金融市场与工具](./M07-金融市场与工具/README.md) | EP061–EP070（待人工复核） |
+| M08 | [估值与投资决策](./M08-估值与投资决策/README.md) | EP071–EP080（待人工复核） |
+| M09 | [金融风险与危机](./M09-金融风险与危机/README.md) | EP081–EP090（待人工复核） |
+| M10 | [全球金融与个人财务](./M10-全球金融与个人财务/README.md) | EP091–EP100（待人工复核） |
 
 ## 使用约定
 
 1. 在对应 `EPxxx/brief.md` 查看概念定义、讲解主线、案例切口及误区。
-2. EP001–EP060 可直接审阅 `script.md`、`research.md`、`storyboard.md`、`review.md`；其他期数保持占位。真实事实必须有可追溯来源。
+2. EP001–EP100 均可审阅 `script.md`、`research.md`、`storyboard.md`、`review.md`；全部仍需独立事实核查，假设案例不得冒充真实新闻。
 3. 每期完成后同步维护文件头和 `manifest.json` 的 `status`；建议 `planned → drafting → in_review → approved`。第一批仍处于人工复核阶段。
 4. 只有完成审稿、来源核验并转为 `content/articles/<slug>.json` 且状态设为 `published`，才会进入网站公开内容。
 
