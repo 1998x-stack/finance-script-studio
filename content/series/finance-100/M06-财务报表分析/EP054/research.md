@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 标题/机构 | URL | 出版日/资料期 | 用途和已知限制 |
 |---|---|---|---|---|
 | S1 | 财政部｜企业会计准则第14号——收入 | https://kjs.mof.gov.cn/zt/kjzzss/kuaijizhunzeshishi/201709/t20170907_2694006.htm | 2017-09-07 | 收入确认适用合同及履约义务原则 |
-| S2 | CFA Institute｜Analyzing Income Statements（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements | 2026-01-01 | 利润表指标、收入和费用确认、非经常性项目；月份日期为元数据占位 |
+| S2 | CFA Institute｜Analyzing Income Statements（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements | 2026-11-09（查阅日；原发布日期待核） | 利润表指标、收入和费用确认、非经常性项目；月份日期为元数据占位 |
 
 ## 断言核查清单
 

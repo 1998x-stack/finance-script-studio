@@ -20,7 +20,7 @@ target_duration_seconds: 180
 
 | ID | 标题/机构 | URL | 出版日/资料期 | 用途和已知限制 |
 |---|---|---|---|---|
-| S1 | CFA Institute｜Analyzing Income Statements（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements | 2026-01-01 | 利润表指标、收入和费用确认、非经常性项目；月份日期为元数据占位 |
+| S1 | CFA Institute｜Analyzing Income Statements（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-income-statements | 2026-11-09（查阅日；原发布日期待核） | 利润表指标、收入和费用确认、非经常性项目；月份日期为元数据占位 |
 | S2 | IFRS Foundation｜IAS 1 Presentation of Financial Statements | https://www.ifrs.org/issued-standards/list-of-standards/ias-1-presentation-of-financial-statements.html/ | 2026-11-09 | 报表构成和时点/期间的原则；日期为查阅快照；IFRS 18自2027起一般生效，应注意适用期 |
 
 ## 断言核查清单

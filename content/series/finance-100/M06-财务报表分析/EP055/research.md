@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 标题/机构 | URL | 出版日/资料期 | 用途和已知限制 |
 |---|---|---|---|---|
 | S1 | 财政部｜企业会计准则第31号——现金流量表 | https://kjs.mof.gov.cn/zt/kjzzss/kuaijizhunzeshishi/200806/t20080618_46250.htm | 2008-06-18 | 中国企业经营、投资、筹资现金流分类官方原文 |
-| S2 | CFA Institute｜Analyzing Statements of Cash Flows II（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii | 2026-01-01 | 自由现金流和覆盖比率的几种定义；元数据占位 |
+| S2 | CFA Institute｜Analyzing Statements of Cash Flows II（2026课程） | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/analyzing-statements-of-cash-flows-ii | 2026-11-09（查阅日；原发布日期待核） | 自由现金流和覆盖比率的几种定义；元数据占位 |
 | S3 | CFA Institute｜Financial Ratio List | https://www.cfainstitute.org/sites/default/files/-/media/documents/support/programs/cfa/cfa_program_level_ii_financial_ratio_list.pdf | 2026-11-09 | 财务比率计算公式；日期为查阅快照，非原始发布日 |
 
 ## 断言核查清单
