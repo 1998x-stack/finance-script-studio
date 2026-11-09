@@ -26,16 +26,17 @@ python3 -m http.server 8000 --directory _site
 
 ## 100 个核心财经概念（现行制作版）
 
-**10 个模块 × 100 期，每期目标约180秒。第一批 M01–M03（EP001–EP030）已有完整口播初稿、分镜、来源及审稿卡和30份 draft 文章记录，仍待人工复核与试录；其余70期为占位：**
+**10 个模块 × 100 期，每期目标约180秒。第一、二批 M01–M06（EP001–EP060）已有60份完整口播初稿、分镜、来源和审稿卡及60份 draft JSON；仍待人工复核与试录，余下40期保留占位：**
 
 - [2026-11-09 完整选题总纲](docs/finance-100-production-blueprint.md)（当前制作依据）
 - [100期分模块工作区与进度索引](content/series/finance-100/README.md)
 - [100期机器可读清单（manifest）](content/series/finance-100/manifest.json)
 - [第一批30期内容交付与审核报告](docs/finance-100-batch-01-report.md)
+- [第二批30期内容交付与审核报告](docs/finance-100-batch-02-report.md)
 - [分批写稿/审稿/发布指南](docs/finance-100-workflow.md)
 - [早期100概念课程地图](docs/finance-100-concept-map.md)（历史参考，期号与现行方案不一致）
 
-**进度口径：30期已有初稿待审核，70期仍未撰写；已生成的30份 article JSON 均为 `draft`，不是已经发表的页面。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
+**进度口径：60期已有初稿待审核，40期仍未撰写；已生成的60份 article JSON 均为 `draft`，不是已经发表的页面。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
 
 ## Skill 部署
 

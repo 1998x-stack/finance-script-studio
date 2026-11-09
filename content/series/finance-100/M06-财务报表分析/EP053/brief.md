@@ -3,7 +3,7 @@ series: finance-100
 episode: EP053
 module: M06
 title: "现金流量表"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

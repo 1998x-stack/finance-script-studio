@@ -3,7 +3,7 @@ series: finance-100
 episode: EP047
 module: M05
 title: "竞争壁垒与护城河"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

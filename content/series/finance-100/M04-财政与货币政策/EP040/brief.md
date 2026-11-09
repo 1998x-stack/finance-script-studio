@@ -3,7 +3,7 @@ series: finance-100
 episode: EP040
 module: M04
 title: "预期管理与前瞻指引"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP057
 module: M06
 title: "存货与周转率"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

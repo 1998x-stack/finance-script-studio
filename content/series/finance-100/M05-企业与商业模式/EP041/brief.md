@@ -3,7 +3,7 @@ series: finance-100
 episode: EP041
 module: M05
 title: "商业模式"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

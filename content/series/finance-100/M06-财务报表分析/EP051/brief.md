@@ -3,7 +3,7 @@ series: finance-100
 episode: EP051
 module: M06
 title: "资产负债表"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

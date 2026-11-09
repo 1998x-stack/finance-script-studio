@@ -3,7 +3,7 @@ series: finance-100
 episode: EP052
 module: M06
 title: "利润表"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

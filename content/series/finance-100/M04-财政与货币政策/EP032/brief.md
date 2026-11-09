@@ -3,7 +3,7 @@ series: finance-100
 episode: EP032
 module: M04
 title: "降低存款准备金率"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

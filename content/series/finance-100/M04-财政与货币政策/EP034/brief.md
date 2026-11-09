@@ -3,7 +3,7 @@ series: finance-100
 episode: EP034
 module: M04
 title: "公开市场操作"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

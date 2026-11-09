@@ -3,7 +3,7 @@ series: finance-100
 episode: EP058
 module: M06
 title: "商誉与资产减值"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

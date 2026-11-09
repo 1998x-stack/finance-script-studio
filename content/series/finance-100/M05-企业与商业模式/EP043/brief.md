@@ -3,7 +3,7 @@ series: finance-100
 episode: EP043
 module: M05
 title: "毛利率与净利率"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

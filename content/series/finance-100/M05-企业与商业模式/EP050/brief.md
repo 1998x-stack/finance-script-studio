@@ -3,7 +3,7 @@ series: finance-100
 episode: EP050
 module: M05
 title: "资本开支与ROIC"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

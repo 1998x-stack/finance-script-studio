@@ -3,7 +3,7 @@ series: finance-100
 episode: EP039
 module: M04
 title: "政策传导时滞"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

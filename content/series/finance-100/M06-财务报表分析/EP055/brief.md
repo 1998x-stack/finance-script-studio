@@ -3,7 +3,7 @@ series: finance-100
 episode: EP055
 module: M06
 title: "经营现金流与自由现金流"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

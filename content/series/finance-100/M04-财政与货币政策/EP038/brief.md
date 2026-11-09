@@ -3,7 +3,7 @@ series: finance-100
 episode: EP038
 module: M04
 title: "政府债务可持续性"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
