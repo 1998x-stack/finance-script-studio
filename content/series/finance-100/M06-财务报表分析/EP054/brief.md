@@ -3,7 +3,7 @@ series: finance-100
 episode: EP054
 module: M06
 title: "权责发生制与现金制"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP060
 module: M06
 title: "ROE与杜邦分析"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

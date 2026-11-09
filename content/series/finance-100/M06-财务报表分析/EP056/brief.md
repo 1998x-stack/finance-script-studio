@@ -3,7 +3,7 @@ series: finance-100
 episode: EP056
 module: M06
 title: "应收账款与坏账"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

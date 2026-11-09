@@ -3,7 +3,7 @@ series: finance-100
 episode: EP059
 module: M06
 title: "债务期限结构与偿债覆盖"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
