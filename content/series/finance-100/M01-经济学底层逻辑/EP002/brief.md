@@ -3,7 +3,7 @@ series: finance-100
 episode: EP002
 module: M01
 title: "边际收益与边际成本"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

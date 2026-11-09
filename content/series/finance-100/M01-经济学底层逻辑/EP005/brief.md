@@ -3,7 +3,7 @@ series: finance-100
 episode: EP005
 module: M01
 title: "激励机制"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

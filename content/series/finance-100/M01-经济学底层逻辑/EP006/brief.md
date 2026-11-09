@@ -3,7 +3,7 @@ series: finance-100
 episode: EP006
 module: M01
 title: "信息不对称"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

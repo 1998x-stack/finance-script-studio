@@ -3,7 +3,7 @@ series: finance-100
 episode: EP007
 module: M01
 title: "外部性与公共品"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

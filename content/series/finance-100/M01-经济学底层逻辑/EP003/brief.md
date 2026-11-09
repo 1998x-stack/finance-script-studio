@@ -3,7 +3,7 @@ series: finance-100
 episode: EP003
 module: M01
 title: "供给、需求与均衡价格"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
