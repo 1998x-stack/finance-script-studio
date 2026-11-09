@@ -21,7 +21,7 @@ target_duration_seconds: 180
 | ID | 文献/机构 | URL | 发表或快照日期 | 来源边界 |
 |---|---|---|---|---|
 | S1 | OpenStax｜How Monopolies Form: Barriers to Entry | https://openstax.org/books/principles-economics-3e/pages/9-1-how-monopolies-form-barriers-to-entry | 2022-12-14 | 进入壁垒、规模成本和市场势力的机制 |
-| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-01-01 | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
+| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-09（查阅日；原发布日期待核） | 2026课程财务分析方法；各行业指标口径可能不同，年份已知但日月未知、日期用年份占位 |
 
 ## 关键断言与归类
 
