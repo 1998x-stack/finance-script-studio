@@ -521,140 +521,160 @@
           "title": "货币政策目标与传导",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP031",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep031.json"
         },
         {
           "id": "EP032",
           "title": "降低存款准备金率",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP032",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep032.json"
         },
         {
           "id": "EP033",
           "title": "政策利率与LPR",
           "priority": "A｜推荐首批",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP033",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep033.json"
         },
         {
           "id": "EP034",
           "title": "公开市场操作",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP034",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep034.json"
         },
         {
           "id": "EP035",
           "title": "财政政策",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP035",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep035.json"
         },
         {
           "id": "EP036",
           "title": "财政赤字与政府债券",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP036",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep036.json"
         },
         {
           "id": "EP037",
           "title": "财政乘数效应",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP037",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep037.json"
         },
         {
           "id": "EP038",
           "title": "政府债务可持续性",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP038",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep038.json"
         },
         {
           "id": "EP039",
           "title": "政策传导时滞",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP039",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep039.json"
         },
         {
           "id": "EP040",
           "title": "预期管理与前瞻指引",
           "priority": "B｜常规储备",
           "kind": "政策解码",
-          "status": "planned",
+          "status": "in_review",
           "path": "M04-财政与货币政策/EP040",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep040.json"
         }
       ]
     },
@@ -669,140 +689,160 @@
           "title": "商业模式",
           "priority": "A｜推荐首批",
           "kind": "基础破圈",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP041",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep041.json"
         },
         {
           "id": "EP042",
           "title": "收入增长与收入质量",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP042",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep042.json"
         },
         {
           "id": "EP043",
           "title": "毛利率与净利率",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP043",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep043.json"
         },
         {
           "id": "EP044",
           "title": "固定成本与经营杠杆",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP044",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep044.json"
         },
         {
           "id": "EP045",
           "title": "单位经济模型",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP045",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep045.json"
         },
         {
           "id": "EP046",
           "title": "现金转换周期",
           "priority": "A｜推荐首批",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP046",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep046.json"
         },
         {
           "id": "EP047",
           "title": "竞争壁垒与护城河",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP047",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep047.json"
         },
         {
           "id": "EP048",
           "title": "定价权",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP048",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep048.json"
         },
         {
           "id": "EP049",
           "title": "市场结构与竞争",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP049",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep049.json"
         },
         {
           "id": "EP050",
           "title": "资本开支与ROIC",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M05-企业与商业模式/EP050",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep050.json"
         }
       ]
     },
@@ -817,140 +857,160 @@
           "title": "资产负债表",
           "priority": "B｜常规储备",
           "kind": "基础破圈",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP051",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep051.json"
         },
         {
           "id": "EP052",
           "title": "利润表",
           "priority": "B｜常规储备",
           "kind": "基础破圈",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP052",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep052.json"
         },
         {
           "id": "EP053",
           "title": "现金流量表",
           "priority": "A｜推荐首批",
           "kind": "基础破圈",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP053",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep053.json"
         },
         {
           "id": "EP054",
           "title": "权责发生制与现金制",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP054",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep054.json"
         },
         {
           "id": "EP055",
           "title": "经营现金流与自由现金流",
           "priority": "A｜推荐首批",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP055",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep055.json"
         },
         {
           "id": "EP056",
           "title": "应收账款与坏账",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP056",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep056.json"
         },
         {
           "id": "EP057",
           "title": "存货与周转率",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP057",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep057.json"
         },
         {
           "id": "EP058",
           "title": "商誉与资产减值",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP058",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep058.json"
         },
         {
           "id": "EP059",
           "title": "债务期限结构与偿债覆盖",
           "priority": "B｜常规储备",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP059",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep059.json"
         },
         {
           "id": "EP060",
           "title": "ROE与杜邦分析",
           "priority": "A｜推荐首批",
           "kind": "机制深挖",
-          "status": "planned",
+          "status": "in_review",
           "path": "M06-财务报表分析/EP060",
           "files": [
             "brief.md",
             "script.md",
             "research.md",
-            "storyboard.md"
-          ]
+            "storyboard.md",
+            "review.md"
+          ],
+          "draft_article": "content/articles/finance100-ep060.json"
         }
       ]
     },
@@ -1561,6 +1621,20 @@
       "article_status": "draft",
       "as_of": "2026-11-09",
       "report": "docs/finance-100-batch-01-report.md"
+    },
+    {
+      "id": "B02",
+      "modules": [
+        "M04",
+        "M05",
+        "M06"
+      ],
+      "episode_range": "EP031–EP060",
+      "episodes": 30,
+      "workflow_status": "in_review",
+      "article_status": "draft",
+      "as_of": "2026-11-09",
+      "report": "docs/finance-100-batch-02-report.md"
     }
   ]
 }
