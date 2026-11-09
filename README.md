@@ -24,6 +24,15 @@ python3 -m http.server 8000 --directory _site
 
 **四个栏目：** `event` 财经事件背后的真问题 / `company` 一家公司的商业逻辑 / `policy` 政策背后的经济机制 / `concept` 每天一个商业认知。
 
+## 100 个核心财经概念
+
+按 10 大模块 × 10 个概念整理了可连续制作的三分钟口播课程地图，含每期独立的核心问题与内容质量门槛：
+
+- [财经核心100概念：180秒口播课程地图](docs/finance-100-concept-map.md)
+- [交付审计与 GitHub Pages 上线清单](docs/handover-and-release.md)
+
+课程地图不等于100份已发表文稿；需逐期核实案例和来源，发布状态以 `content/articles/` 为准。
+
 ## Skill 部署
 
 主版本在 `skill-src/finance-script-studio/`，包括 `SKILL.md` 与完整 `references/`、`templates/`。运行：
