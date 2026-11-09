@@ -60,6 +60,12 @@ def validate(a, file):
         verify_refs(metric)
         if not metric["source_ids"]:
             raise ValueError(f"{file}: uncited metric")
+    if a.get("comparison"):
+        verify_refs(a["comparison"])
+        if not a["comparison"]["source_ids"]:
+            raise ValueError(f"{file}: uncited comparison")
+        if not a["comparison"]["items"] or any(not isinstance(i["amount"], (int, float)) or i["amount"] < 0 for i in a["comparison"]["items"]):
+            raise ValueError(f"{file}: invalid comparison amounts")
     for section in a["sections"]:
         if not section.get("heading") or not section.get("paragraphs"):
             raise ValueError(f"{file}: invalid section")
@@ -150,7 +156,7 @@ def article_page(a):
     chart = ""
     if a.get("comparison"):
         cmp=a["comparison"]
-        peak=max(i["amount"] for i in cmp["items"])
+        peak=max(i["amount"] for i in cmp["items"]) or 1  # all-zero comparisons must still render
         bars="".join(f'<div class="compare-line"><div class="compare-top"><span>{h(i["label"])}</span><strong>{h(i["display"])}</strong></div><div class="track"><div class="bar" style="width:{100*i["amount"]/peak:.2f}%"></div></div></div>' for i in cmp["items"])
         chart=f'<div class="compare"><div class="compare-kicker">DATA / 同期口径对比</div><h3>{h(cmp["title"])}</h3>{bars}<p>{h(cmp["note"])}{cite(cmp.get("source_ids",[]),smap)}</p></div>'
     body=f'''<div class="article-hero"><div class="container article-hero-inner">
@@ -172,6 +178,10 @@ def build(out_dir):
     arts=read_articles()
     published=[a for a in arts if a["status"]=="published"]
     out_dir.mkdir(parents=True,exist_ok=True)
+    # Prevent previously published pages from surviving when an article becomes a draft.
+    previous_articles = out_dir / "articles"
+    if previous_articles.exists():
+        shutil.rmtree(previous_articles)
     shutil.copytree(ROOT/"web"/"assets",out_dir/"assets",dirs_exist_ok=True)
     (out_dir/"index.html").write_text(index_page(published),encoding="utf-8")
     urls=[SITE["base_url"]]
