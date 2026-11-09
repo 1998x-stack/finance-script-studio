@@ -3,7 +3,7 @@ series: finance-100
 episode: EP031
 module: M04
 title: "货币政策目标与传导"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
