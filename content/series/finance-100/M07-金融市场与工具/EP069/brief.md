@@ -3,7 +3,7 @@ series: finance-100
 episode: EP069
 module: M07
 title: "REITs与资产证券化"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

@@ -3,7 +3,7 @@ series: finance-100
 episode: EP061
 module: M07
 title: "股票与股东权利"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

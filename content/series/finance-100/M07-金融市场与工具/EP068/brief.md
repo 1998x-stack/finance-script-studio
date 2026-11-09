@@ -3,7 +3,7 @@ series: finance-100
 episode: EP068
 module: M07
 title: "可转换债券"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

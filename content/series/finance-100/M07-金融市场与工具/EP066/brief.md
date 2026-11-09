@@ -3,7 +3,7 @@ series: finance-100
 episode: EP066
 module: M07
 title: "主动基金与被动基金"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

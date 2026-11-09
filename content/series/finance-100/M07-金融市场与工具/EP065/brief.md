@@ -3,7 +3,7 @@ series: finance-100
 episode: EP065
 module: M07
 title: "股权融资与债权融资"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
