@@ -11,19 +11,20 @@
 - [x] Python 结构校验与基本发布回归测试；在静态构建时清除上次遗留的文章页，避免已撤稿文章残留。
 - [x] 按10个模块列出100个财经核心概念及各期180秒的唯一主问题：`docs/finance-100-concept-map.md`。
 
-## 发布前阻塞（需要仓库管理界面操作）
+## GitHub Pages 部署状态（2026-11-09 更新）
 
-- [ ] **首次启用 GitHub Pages。** 当前曾有一次 main 部署在 `Configure GitHub Pages` 返回 404，说明尚未成功配置 Pages。请打开 [Settings → Pages](https://github.com/1998x-stack/finance-script-studio/settings/pages)，在 **Build and deployment → Source** 选择 **GitHub Actions**。
-- [ ] 在设置完成后，去 [Actions](https://github.com/1998x-stack/finance-script-studio/actions/workflows/pages.yml) 重跑失败的 main workflow，或推送新的 main 提交。
-- [ ] 确认部署 job 为 **success**，并实测以下页面与资源：
+- [x] **GitHub Pages 已成功执行配置。** 最新 main [Actions 工作流 #42631912986](https://github.com/1998x-stack/finance-script-studio/actions/runs/42631912986) 的 `Configure GitHub Pages` 成功。
+- [x] 静态网站成功构建，并通过 `Upload Pages artifact` 上传。
+- [x] 同一工作流的 `deploy` job 最终显示 **success**，发布环境记录的页面 URL 是 https://1998x-stack.github.io/finance-script-studio/ 。
+- [ ] **外部网页和移动端人工验收**：从非 Actions 网络实际打开并检查以下地址，确认内容显示、证据引用与资源文件正常：
   - https://1998x-stack.github.io/finance-script-studio/
   - https://1998x-stack.github.io/finance-script-studio/articles/huafa-liquidity-2026/
   - https://1998x-stack.github.io/finance-script-studio/data/articles.json
   - https://1998x-stack.github.io/finance-script-studio/sitemap.xml
-- [ ] 手机上复查首屏、文章证据链接、数字可读性与分镜时间表。
-- [ ] 确认上线后关闭 [Issue #2](https://github.com/1998x-stack/finance-script-studio/issues/2)。
 
-**重要：** `actions/configure-pages` 的 `enablement: true` 不能仅凭默认 `GITHUB_TOKEN` 自行启用新站点；不要为了绕过一次性设置而引入高权限长期 Token。GitHub Actions 工作流已经具备构建和部署逻辑，缺的是仓库 Pages 的首次激活。
+原先的 `Get Pages site failed ... Not Found` 已被新一轮成功部署消除。**不再要求仓库管理员重复启用 Pages。** 如果未来新仓库复用本模板，首次需要在 [Settings → Pages](https://github.com/1998x-stack/finance-script-studio/settings/pages) 选择 `GitHub Actions`。默认 `GITHUB_TOKEN` 不能单凭 `enablement: true` 初始化一个从未启用 Pages 的新仓库。 
+
+部署成功并不等于已完成真实浏览器、移动端及可访问性人工验收；后者作为编辑发布后的质检项目保留。
 
 ## 每次发布的命令
 
