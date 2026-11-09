@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from build_site import SITE, build, read_articles, validate
+from build_site import SITE, article_page, build, read_articles, validate
 
 class EditorialBuildTests(unittest.TestCase):
     def test_articles_valid(self):
@@ -36,6 +36,41 @@ class EditorialBuildTests(unittest.TestCase):
         a["key_numbers"][0]["source_ids"]=["invented"]
         with self.assertRaises(ValueError):
             validate(a,"synthetic.json")
+    def test_rebuild_removes_unpublished_article_pages(self):
+        # A withdrawn publication must not survive the next static build.
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "site"
+            build(out)
+            old_page = out / "articles" / "retired-story" / "index.html"
+            old_page.parent.mkdir(parents=True)
+            old_page.write_text("previously published", encoding="utf-8")
+            build(out)
+            self.assertFalse(old_page.exists())
+
+    def test_comparison_requires_known_sources(self):
+        a = json.loads(json.dumps(read_articles()[0]))
+        a["comparison"] = {
+            "title": "Cash comparison",
+            "items": [{"label": "A", "amount": 0, "display": "0"},
+                      {"label": "B", "amount": 0, "display": "0"}],
+            "note": "illustrative",
+            "source_ids": ["missing"],
+        }
+        with self.assertRaises(ValueError):
+            validate(a, "synthetic.json")
+
+    def test_zero_value_comparison_renders(self):
+        a = json.loads(json.dumps(read_articles()[0]))
+        a["comparison"] = {
+            "title": "Zero-value comparison",
+            "items": [{"label": "A", "amount": 0, "display": "0"},
+                      {"label": "B", "amount": 0, "display": "0"}],
+            "note": "illustrative",
+            "source_ids": [a["sources"][0]["id"]],
+        }
+        validate(a, "synthetic.json")
+        self.assertIn("width:0.00%", article_page(a))
+
     def test_no_blank_published_beat(self):
         self.assertTrue(all(b["text"].strip() for a in read_articles() for b in a["voiceover"]))
 if __name__=="__main__":
