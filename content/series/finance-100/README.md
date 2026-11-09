@@ -1,18 +1,19 @@
 # 财经100个核心概念｜逐期创作工作区
 
-> 总计 10 大模块 × 10 期，每期目标约 180 秒。**当前均为选题简报与待写占位文件，尚非已经完成的100篇逐字稿，也不会自动发布到网站。**
+> 总计 10 大模块 × 10 期，每期目标约 180 秒。**EP001–EP030 已有完整初稿与分镜、来源记录，状态 in_review；EP031–EP100 仍为占位。全部未经人工终审，不会自动公开发布。**
 
 - [完整选题总纲](../../../docs/finance-100-production-blueprint.md)
 - [逐期撰稿与发布工作流](../../../docs/finance-100-workflow.md)
 - [结构化期号索引](./manifest.json)
+- [第一批交付与人工审稿指南](../../../docs/finance-100-batch-01-report.md)
 
 ## 模块目录
 
 | 模块 | 主题 | 期数 |
 |---|---|---|
-| M01 | [经济学底层逻辑](./M01-经济学底层逻辑/README.md) | EP001–EP010 |
-| M02 | [宏观经济体检](./M02-宏观经济体检/README.md) | EP011–EP020 |
-| M03 | [货币、银行与信用](./M03-货币银行与信用/README.md) | EP021–EP030 |
+| M01 | [经济学底层逻辑](./M01-经济学底层逻辑/README.md) | EP001–EP010（待人工复核） |
+| M02 | [宏观经济体检](./M02-宏观经济体检/README.md) | EP011–EP020（待人工复核） |
+| M03 | [货币、银行与信用](./M03-货币银行与信用/README.md) | EP021–EP030（待人工复核） |
 | M04 | [财政与货币政策](./M04-财政与货币政策/README.md) | EP031–EP040 |
 | M05 | [企业与商业模式](./M05-企业与商业模式/README.md) | EP041–EP050 |
 | M06 | [财务报表分析](./M06-财务报表分析/README.md) | EP051–EP060 |
@@ -24,8 +25,8 @@
 ## 使用约定
 
 1. 在对应 `EPxxx/brief.md` 查看概念定义、讲解主线、案例切口及误区。
-2. 分批填充 `script.md`、`research.md` 与 `storyboard.md`；全部事实先登记来源后再用作成片结论。
-3. 每期完成后人工维护文件头的 `status` 和 `manifest.json` 中对应条目的 `status`；建议 `planned → drafting → in_review → approved`。
+2. EP001–EP030 可直接审阅 `script.md`、`research.md`、`storyboard.md`、`review.md`；其他期数保持占位。真实事实必须有可追溯来源。
+3. 每期完成后同步维护文件头和 `manifest.json` 的 `status`；建议 `planned → drafting → in_review → approved`。第一批仍处于人工复核阶段。
 4. 只有完成审稿、来源核验并转为 `content/articles/<slug>.json` 且状态设为 `published`，才会进入网站公开内容。
 
 > **编号冲突提示：** 仓库原有的 `docs/finance-100-concept-map.md` 为早期独立方案，期号与本版定义可能不同。后续本系列以本目录的 `manifest.json` 和 `docs/finance-100-production-blueprint.md` 为准。
