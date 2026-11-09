@@ -3,7 +3,7 @@ series: finance-100
 episode: EP094
 module: M10
 title: "贸易差额与经常账户"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

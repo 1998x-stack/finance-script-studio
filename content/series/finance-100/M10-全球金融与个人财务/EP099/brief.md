@@ -3,7 +3,7 @@ series: finance-100
 episode: EP099
 module: M10
 title: "负债成本与债务管理"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

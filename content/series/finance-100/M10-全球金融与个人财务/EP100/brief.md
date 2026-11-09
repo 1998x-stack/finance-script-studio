@@ -3,7 +3,7 @@ series: finance-100
 episode: EP100
 module: M10
 title: "养老规划与真实购买力"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

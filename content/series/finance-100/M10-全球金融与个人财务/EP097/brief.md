@@ -3,7 +3,7 @@ series: finance-100
 episode: EP097
 module: M10
 title: "家庭预算与现金流"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 

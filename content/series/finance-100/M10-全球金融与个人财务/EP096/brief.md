@@ -3,7 +3,7 @@ series: finance-100
 episode: EP096
 module: M10
 title: "大宗商品与输入性通胀"
-status: planned
+status: in_review
 target_duration_seconds: 180
 ---
 
