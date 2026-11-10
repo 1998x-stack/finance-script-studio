@@ -19,6 +19,7 @@ description: 用真实财经事件构建证据充分、因果清晰、适合180�
 - **分镜、图表、字幕与视觉风格** → [references/visual-directing.md](references/visual-directing.md)
 - **JSON字段与 GitHub Pages 出版** → [references/article-data-contract.md](references/article-data-contract.md)
 - **合规、披露与更正机制** → [references/compliance-and-review.md](references/compliance-and-review.md)
+- **制作、试录及发布前终审** → [references/production-review-and-recording.md](references/production-review-and-recording.md)
 - **示范案例与事实边界** → [references/huafa-case-study.md](references/huafa-case-study.md)
 
 启动工作可复制 [templates/video-brief.md](templates/video-brief.md)，发布前检查 [templates/publishing-checklist.md](templates/publishing-checklist.md)。
@@ -86,9 +87,11 @@ description: 用真实财经事件构建证据充分、因果清晰、适合180�
 - `voiceover` 按时间顺序，区间不能重叠，最后一段结束时间等于 `video_seconds`。
 - 运行 `python3 scripts/build_site.py --check` 验证，再运行构建；若在仓库工作，同步 Skill 并验证副本。
 
-### 7. 双重审核与修订
+### 7. 双重审核与修订、制作试录和放行
 
 **真实性门槛优先于传播得分。** 审核以下风险：集团与子公司混淆；现金/资产/现金流混淆；静态差额被称为“真实缺口”；拟议支持称为已拨款；评级观察称为实质违约；预测写成事实；未经证实的违法指控；无资质的荐股与营销。
+
+涉及系列批量出片，必须先运行 `scripts/qa_finance100.py`，再通过 `scripts/prepare_finance100_production.py` 生成100期排期与优先试录包，逐期进行独立事实核查、算术复算、真人180秒试录、图表版权与金融合规签核；详见 `references/production-review-and-recording.md`。自动测试通过**不能**替代真人审核或录音，不得自动提升为approved/published。
 
 内部编辑权重（不是播放预测）：事实/证据30、核心问题20、叙事20、通俗15、视觉10、标题一致性5。任何严重事实错误都必须修改，不能用其他分数抵消。
 
