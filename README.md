@@ -24,6 +24,11 @@ python3 -m http.server 8000 --directory _site
 
 **四个栏目：** `event` 财经事件背后的真问题 / `company` 一家公司的商业逻辑 / `policy` 政策背后的经济机制 / `concept` 每天一个商业认知。
 
+## 每日《新闻联播》财经口播制作
+
+- [2026-11-10：外贸、电子式储蓄国债、宁波舟山港｜3集完整待审口播＋分镜＋SRT](production/news-broadcast/2026-11-10/README.md)
+- 当日材料在 `content/articles/xwlb-YYYYMMDD-*.json` 和 `production/news-broadcast/YYYY-MM-DD/`；未完成独立事实审核与真人试录的稿件保持 `draft`，不生成正式文章页，**SRT不等于完成的视频**。
+
 ## 100 个核心财经概念（现行制作版）
 
 **10 个模块 × 100 期、每期目标约180秒，100期均已有独立口播初稿、来源卡、分镜及审稿文件与100份 draft JSON。所有期号仍待人工终审及试录；本轮按七章范围 M04–M10 交付，其中 M04–M06 沿用前批内容，M07–M10 新增40期：**
