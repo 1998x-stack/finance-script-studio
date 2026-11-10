@@ -209,7 +209,8 @@ def main():
     ap.add_argument("--out-dir",default="_site",type=Path)
     args=ap.parse_args()
     arts=read_articles()
-    print(f"Validated {len(arts)} article records")
+    modules=read_curriculum()
+    print(f"Validated {len(arts)} article records and {sum(len(m['lessons']) for m in modules)} course previews")
     if not args.check:
         build(args.out_dir)
 
