@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
 from series_site import build_course, read_curriculum, home_teaser
+from production_site import build_production
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content" / "articles"
@@ -107,10 +108,10 @@ def shell(title, description, canonical, body, root_prefix="./", article=False):
 <body><a class="skip" href="#main">跳到正文</a>
 <header class="site-header"><div class="container header-inner">
 <a class="brand" href="{root_prefix}" aria-label="财经观察首页"><span class="brand-icon">F<span>·</span></span><span>财经<span class="brand-light">理性观察</span><small>FINANCE SCRIPT STUDIO</small></span></a>
-<nav class="nav"><a href="{root_prefix}#topics">研究栏目</a><a href="{root_prefix}series/finance-100/">百期课程</a><a href="{root_prefix}#latest">最新研究</a><a href="https://github.com/1998x-stack/finance-script-studio" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+<nav class="nav"><a href="{root_prefix}#topics">研究栏目</a><a href="{root_prefix}series/finance-100/">百期课程</a><a href="{root_prefix}production/">审核与制作</a><a href="{root_prefix}#latest">最新研究</a><a href="https://github.com/1998x-stack/finance-script-studio" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
 </div></header><main id="main">{body}</main>
 <footer class="footer"><div class="container footer-grid"><div><strong>财经理性观察</strong><p>事实有出处，观点有边界。</p></div><div>基于公开信息的研究与财经科普，不构成任何投资建议。<br>文稿中的时间、数字和判断以各篇标注的研究截止日为准。</div></div></footer>
-<script defer src="{root_prefix}assets/site.js"></script><script defer src="{root_prefix}assets/series.js"></script></body></html>'''
+<script defer src="{root_prefix}assets/site.js"></script><script defer src="{root_prefix}assets/series.js"></script><script defer src="{root_prefix}assets/production.js"></script></body></html>'''
 
 def metric_card(m, compact=False):
     return (f'<div class="metric"><div class="metric-label">{h(m["label"])}</div>'
@@ -186,7 +187,8 @@ def build(out_dir):
     shutil.copytree(ROOT/"web"/"assets",out_dir/"assets",dirs_exist_ok=True)
     (out_dir/"index.html").write_text(index_page(published),encoding="utf-8")
     course=build_course(out_dir, shell, h, SITE)
-    urls=[SITE["base_url"], *course["urls"]]
+    production=build_production(out_dir, shell, SITE, course["catalog"])
+    urls=[SITE["base_url"], *course["urls"], SITE["base_url"].rstrip("/") + "/production/"]
     summary=[]
     for a in published:
         target=out_dir/"articles"/a["slug"]
@@ -201,7 +203,7 @@ def build(out_dir):
     (out_dir/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+sitemap+'</urlset>',encoding="utf-8")
     (out_dir/"robots.txt").write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE["base_url"]}sitemap.xml\n',encoding="utf-8")
     (out_dir/".nojekyll").touch()
-    print(f"Built {len(published)} published article page(s), {course['episodes']} course preview pages from {len(arts)} content record(s) at {out_dir}")
+    print(f"Built {len(published)} published article page(s), {course['episodes']} fully browseable editorial pages and {production['pilot_count']} rehearsal cards from {len(arts)} content record(s) at {out_dir}")
 
 def main():
     ap=argparse.ArgumentParser()
