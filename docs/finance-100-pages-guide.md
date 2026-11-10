@@ -1,58 +1,53 @@
-# 财经100集课程：GitHub Pages 展示与内容发布边界
+# 财经100集：课程网站、完整工作稿和审核制作展示
 
-> 2026-11-10。课程入口现在是 [财经100个核心概念](https://1998x-stack.github.io/finance-script-studio/series/finance-100/)。这里向读者开放课程结构与各集知识提纲；**这不是100集录制完成，也不是100篇稿件通过事实终审。**
+> 更新：2026-11-10。**网站公开的是编辑工作材料，不是100部录制完成的视频，也不是100篇经过独立事实终审的正式财经文章。**
 
-## 为什么之前没有展示
+## 网站入口
 
-原站的 `scripts/build_site.py` 只扫描 `content/articles/*.json`，校验后生成 `status=published` 的文章页。财经100期的 JSON 从创建至今均为 `draft`；这是刻意设置的发布门槛，而不是数据丢失。
+- [十章100集课程目录](https://1998x-stack.github.io/finance-script-studio/series/finance-100/)：浏览、按章节筛选、搜索EP编号或财经概念。
+- [审核与制作中心](https://1998x-stack.github.io/finance-script-studio/production/)：100期制作状态、节奏预警、11期导演卡、全量审核报告、三种签核模板。
+- [示例 EP029 完整制作稿](https://1998x-stack.github.io/finance-script-studio/series/finance-100/ep029/)：完整五段口播、全部分镜、研究卡、审稿记录和试录状态。
 
-## 现在新增什么
+## 页面构成
 
-| URL | 内容 | 是否正式发表 |
+| 路径 | 页面内容 | 当前审核性质 |
 |---|---|---|
-| `/` | 首页新增“100个财经核心概念”专题，展示10章与进入课程的按钮 | 网站导航 |
-| `/series/finance-100/` | 10章100期索引、课程描述、EP/概念搜索及章节筛选 | 公开课程目录 |
-| `/series/finance-100/ep001/` … `ep100/` | 每集的题目、开场问题、概念定义、机制主线、案例方向、误区及原始创作稿链接 | **待审提纲预览** |
-| `/data/finance100.json` | 机器可读的公开课程元信息（不包括完整口播稿） | 公开索引 |
-| `/articles/<slug>/` | 原来通过终审并标为 `published` 的正式财经文章 | 正式发表 |
+| `/` | 首页、四条财经研究主线、百期入口、审核制作导航 | 站点入口 |
+| `/series/finance-100/` | 10章100期索引和搜索 | 课程目录 |
+| `/series/finance-100/ep001/` 至 `ep100/` | 课程提纲、完整5段口播、9:16分镜、研究与来源、编辑审稿、静态自检及试录状态 | **公开待审编辑工作稿**，并非正式发布文章 |
+| `/production/` | 六道审核门槛、100期排期/优先级、审查报告、审核模板 | 制作与审稿总览 |
+| `/production/pilot/ep029/` 等11期 | 原始导演卡和提词稿的网页阅读入口 | 建议试录材料，没有真实录音 |
+| `/production/production-queue.csv` | 100期原始制作队列表 | **PENDING/BLOCKED** 状态 |
+| `/production/preflight.json` | 100期自动检查的完整结构化结果 | 只证明结构自检，不是独立事实核查 |
+| `/data/finance100.json` | 公开课程索引与简要元信息，**不包含**完整逐字稿 | 机器可读课程目录 |
+| `/articles/<slug>/` | 仅 `status=published` 的正式财经专题文章 | 独立的正式发布流程 |
 
-课程初稿未经全量人工核实，预览页带有 **noindex,follow**，不加入搜索引擎sitemap；sitemap只收录课程专栏首页及正式文章。预览页是给网站访客直接查看课程路线，并非公开发布的投资研究结论。
+所有未审批单集页面和试录卡采用 `noindex,follow`，不计入网站sitemap；审核制作总览和课程目录可通过网页导航访问。页面上可见完整工作稿，但不会因此变更文章的 `draft` 状态。
 
-原始脚本 `script.md`、来源卡 `research.md` 和审核记录仍在公开GitHub仓库。预览页以“待审”的标签指向GitHub原稿，方便协作查看，**不复制完整逐字稿到官网的正式文章区域**。
+## 数据与自动更新
 
-## 内容来源及自动同步
+- `content/series/finance-100/manifest.json` 提供期号、章节和创作状态；`brief.md` 提供每期选题提纲。
+- `content/articles/finance100-epXXX.json` 提供同步的完整五段口播和来源编号；`research.md`、`storyboard.md`、`review.md` 展示全文，`script.md` 原文件及录制备注同样可展开查看。
+- `scripts/qa_finance100.py` 计算100期结构问题与语速预警，**不联网逐条查证**；`scripts/prepare_finance100_production.py` 生成CSV和试录包。
+- 站点代码：`scripts/build_site.py` 调用 `scripts/series_site.py` 和 `scripts/production_site.py`，前端只用HTML/CSS/JavaScript，搜索和筛选关闭JS后仍保留全部链接。
+- 浏览器中可读的审稿Markdown经过HTML转义，避免把仓库稿件中的HTML标签当成可执行网页内容。
 
-该专栏只依赖两个现有数据源：
-
-- `content/series/finance-100/manifest.json`：100期的准确编号、10章分组、顺序和制作状态。
-- 各期 `brief.md`：提取“传播标题”“核心定义”“3分钟机制主线”“案例切口”“误区与边界”。源文本若缺失字段则构建失败，防止空卡。
-
-是否存在正式文章由 `content/articles/finance100-epXXX.json` 的 `status` 决定。未审核的完整 `voiceover`、`sections` 和来源核查记录**不进入公共课程 JSON**；未来单期按正式发布流程变为 `approved / published` 后，课程详情才会链接到正式文章。
-
-新增构建模块：`scripts/series_site.py`。原站仍由 `scripts/build_site.py` 调用；不需要Node、前端构建链或外部API。筛选与搜索使用 `web/assets/series.js`，不启用JavaScript时100个课程链接仍全部可用。
-
-## 日常更新
-
-修改一集标题或模块时，先更新 `manifest.json`、`brief.md` 对应字段和系列脚本/JSON保持一致；CI会执行如下检查：
+## 构建与测试
 
 ```bash
 python scripts/build_site.py --check
 python scripts/sync_skills.py --check
 python -m unittest discover -s tests -v
+python scripts/qa_finance100.py --check
 python scripts/build_site.py --out-dir _site
+python -m http.server 8000 --directory _site
 ```
 
-提交后，`.github/workflows/pages.yml` 自动构建站点并按既有Pages配置部署；不需要直接提交 `_site/`。发布后确认：
+自检须确认每期网站都有 **完整口播、分镜、研究卡、审稿记录** 五个锚点；总览必须列出100期且能打开11期试录卡；全部稿件依旧未获发布授权，只有独立终审完成后才另行修改 `article.status`。
 
-1. 首页出现“100个财经核心概念”的独立入口。
-2. 专栏页显示10章及100条EP选题。
-3. 每个EP页可以点击、返回章节、跳转相邻期号。
-4. 章节筛选和搜索输入可以工作。
-5. 未审核的正式文章 `/articles/finance100-ep001/` 不存在；课程提纲页显示“待审核”，并有 `noindex`。
+## 不允许的误导
 
-### 不应做的事
-
-- 不要为了展示选题而把100份文章JSON批量从 `draft` 改成 `published`。
-- 不要把课程条目数100描述为已制作或已发布视频100集。
-- 不要把自动化检查通过描述为已由专业编辑核实过100期事实。
-- 不要在搜索结果中把GitHub待审逐字稿标成已经可直接播放的视频。
+- 不得把“100期可浏览”写成“100期已录制或已发布”。
+- 不得把官网显示原始资料链接视为“每项原始事实都核实通过”。
+- 不得通过批量修改文章 `draft` 为 `published` 来实现网站公开展示；本轮**没有修改任何文章发布状态**。
+- 若未来须隐藏未审内容，必须调整课程工作区的站点生成策略，而不只是修改搜索索引。
