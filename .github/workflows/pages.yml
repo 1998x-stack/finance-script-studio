@@ -31,6 +31,14 @@ jobs:
           python scripts/build_site.py --check
           python scripts/sync_skills.py --check
           python -m unittest discover -s tests -v
+      - name: Production preflight (structural checks; not editorial approval)
+        run: python scripts/qa_finance100.py --check --report _qa/finance100-review.json
+      - name: Upload editorial preflight report
+        uses: actions/upload-artifact@v4
+        with:
+          name: finance100-production-preflight
+          path: _qa/finance100-review.json
+          retention-days: 30
       - name: Build static site
         run: python scripts/build_site.py --out-dir _site
       - name: Configure GitHub Pages
