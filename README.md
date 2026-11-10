@@ -19,7 +19,7 @@ python3 -m http.server 8000 --directory _site
 
 1. 复制 `content/examples/article-template.json` 到 `content/articles/<slug>.json`。
 2. 按 `content/schema/article.schema.json` 填写标题、分类、统计日期、正文、视频分镜、每条数据的来源 ID 和参考链接。
-3. 只在证据检查完成后把 `status` 改为 `published`；`draft` 不会生成公开页面。
+3. 只在证据检查和人工终审完成后才把 `status` 改为 `published`；`draft` 不会生成 **正式文章页面**。课程工作区可显示明确标记为待审核的完整草稿，不能混为正式发布。
 4. 执行 `python3 scripts/build_site.py --check`，提交至 main。Pages workflow 自动构建索引、独立文章页、JSON 数据索引和 sitemap。
 
 **四个栏目：** `event` 财经事件背后的真问题 / `company` 一家公司的商业逻辑 / `policy` 政策背后的经济机制 / `concept` 每天一个商业认知。
@@ -29,7 +29,8 @@ python3 -m http.server 8000 --directory _site
 **10 个模块 × 100 期、每期目标约180秒，100期均已有独立口播初稿、来源卡、分镜及审稿文件与100份 draft JSON。所有期号仍待人工终审及试录；本轮按七章范围 M04–M10 交付，其中 M04–M06 沿用前批内容，M07–M10 新增40期：**
 
 - [2026-11-09 完整选题总纲](docs/finance-100-production-blueprint.md)（当前制作依据）
-- **[网站在线浏览：财经100个核心概念课程](https://1998x-stack.github.io/finance-script-studio/series/finance-100/)**（10章100集目录、搜索和逐集提纲预览）
+- **[网站在线浏览：财经100个核心概念课程](https://1998x-stack.github.io/finance-script-studio/series/finance-100/)**（10章100集目录、搜索及每期完整口播、研究、分镜与审稿材料）
+- **[网站审核与制作中心：100期进度/11期试录卡/审核报告](https://1998x-stack.github.io/finance-script-studio/production/)**
 - [100期分模块工作区与进度索引](content/series/finance-100/README.md)
 - [百期课程网站展示规则与维护说明](docs/finance-100-pages-guide.md)
 - [100期机器可读清单（manifest）](content/series/finance-100/manifest.json)
@@ -41,7 +42,7 @@ python3 -m http.server 8000 --directory _site
 - [制作签核模板与试录操作说明](production/README.md)
 - [早期100概念课程地图](docs/finance-100-concept-map.md)（历史参考，期号与现行方案不一致）
 
-**进度口径：100期全部已有初稿，100期均为 `in_review`；已生成的100份 article JSON 均为 `draft`，不是已经发表的页面。** **公开课程目录展示选题提纲，并非正式发布文章；单集预览页不暴露完整草稿正文，正式稿仍需人工终审及独立发布授权。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
+**进度口径：100期全部已有初稿，100期均为 `in_review`；已生成的100份 article JSON 均为 `draft`，不是已经发表的页面。** **网站现在完整展示100期待审创作稿、来源、分镜及审稿记录，另提供制作排期和人工审核模板。展示属于透明工作区，不等于正式发表文章，也不代表已完成录音或终审。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
 
 ## Skill 部署
 
@@ -66,6 +67,8 @@ python3 scripts/sync_skills.py --check
 https://1998x-stack.github.io/finance-script-studio/
 
 课程专栏：**https://1998x-stack.github.io/finance-script-studio/series/finance-100/**
+
+审核与制作：**https://1998x-stack.github.io/finance-script-studio/production/**
 
 仅有工作流文件不代表 Pages 已在仓库设置中启用。请查看 Actions 和 Settings → Pages 的实际部署状态。
 
