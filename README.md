@@ -35,6 +35,8 @@ python3 -m http.server 8000 --directory _site
 - [第二批30期内容交付与审核报告](docs/finance-100-batch-02-report.md)
 - [七章合并交付 M04–M10 与40期新增内容审稿报告](docs/finance-100-batch-03-seven-chapters.md)
 - [分批写稿/审稿/发布指南](docs/finance-100-workflow.md)
+- [2026-11-10全系列静态自检与制作交接审查](docs/finance-100-production-self-review-2026-11-10.md)
+- [制作签核模板与试录操作说明](production/README.md)
 - [早期100概念课程地图](docs/finance-100-concept-map.md)（历史参考，期号与现行方案不一致）
 
 **进度口径：100期全部已有初稿，100期均为 `in_review`；已生成的100份 article JSON 均为 `draft`，不是已经发表的页面。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。

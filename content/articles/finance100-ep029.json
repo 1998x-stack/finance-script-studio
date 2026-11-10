@@ -7,7 +7,7 @@
   "category": "concept",
   "status": "draft",
   "published_at": "2026-11-09",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "as_of": "2026-11-09",
   "reading_minutes": 4,
   "video_seconds": 180,
@@ -42,7 +42,8 @@
         {
           "text": "流动性看能否及时获得现金来履行眼前付款义务；偿付能力更关注资产价值和未来可获得的现金流能否从整体上覆盖负债。两者相关，但不完全相同。一个主体可能资产净值为正，却短期现金紧张；也可能账面资金尚可，却长期缺乏足够偿债资源。",
           "source_ids": [
-            "S1"
+            "S1",
+            "S2"
           ]
         }
       ]
@@ -54,7 +55,8 @@
           "text": "假设企业资产账面价值一百亿元、负债八十亿元，其中大部分资产是难以迅速出售的厂房和土地。下周有十亿元到期借款，但当前可自由动用现金只有两亿元。静态看，短期现金和到期金额之间存在八亿元差额；但这不能被直接宣布成“必然违约的资金缺口”，因为企业可能有真实回款、可提款授信、再融资或资产处置。反过来，如果融资渠道收紧，企业急售土地必须大幅打折，就可能进一步损害资产价值，短期流动性问题有机会演化成偿付能力问题。",
           "source_ids": [
             "S1",
-            "ED"
+            "ED",
+            "S2"
           ]
         }
       ]
@@ -66,7 +68,8 @@
           "text": "但要注意，不是所有有资产的公司都能凭抵押立即筹到钱，也不是所有现金余额都能跨子公司自由调配。合并报表中的受限货币资金、债务到期日、抵押权和经营现金流需要逐项核查。对于银行，监管更重视高质量流动性资产覆盖压力情景的现金流；企业则要结合自身融资结构判断，不能机械套用银行监管公式。\n所以，当你听见“资产很大却缺钱”，别急着判定安全或崩盘。沿着三个问题查：钱在哪儿、什么时候要还、能不能合法及时变现。资产决定可能性，现金的时间安排决定眼前能否过关。",
           "source_ids": [
             "S1",
-            "ED"
+            "ED",
+            "S2"
           ]
         }
       ]
@@ -119,6 +122,14 @@
       "url": "https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/30/inforce/2019-12-15/published/2020-06-05"
     },
     {
+      "id": "S2",
+      "title": "CFA Institute｜Financial Analysis Techniques（liquidity vs solvency ratios）",
+      "publisher": "CFA Institute",
+      "published_at": "2026-11-10",
+      "type": "2026-11-10核查快照；公司短期流动性与长期偿债能力定义，原始出版日未核定",
+      "url": "https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques"
+    },
+    {
       "id": "ED",
       "title": "财经100核心概念三分钟口播总纲",
       "publisher": "Finance Script Studio",
@@ -132,7 +143,8 @@
       "claim": "流动性与偿付能力 的基本概念与机制参考了所列资料；中文表达仍需人工复核",
       "status": "attributed",
       "source_ids": [
-        "S1"
+        "S1",
+        "S2"
       ]
     },
     {

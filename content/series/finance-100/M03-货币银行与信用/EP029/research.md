@@ -23,16 +23,19 @@ target_duration_seconds: 180
 | 来源ID | 机构/资料 | 链接 | 本次查阅日期 | 核查说明 |
 |---|---|---|---|---|
 | S1 | Basel Committee｜Liquidity Coverage Ratio — LCR30 | https://www.bis.org/committees/bcbs/basel-framework/standard/lcr/30/inforce/2019-12-15/published/2020-06-05 | 2026-11-09 | 短期流动性覆盖及压力情景，注意各法域的监管适用规则，本次查阅日 2026-11-09 |
+| S2 | CFA Institute｜Financial Analysis Techniques | https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/financial-analysis-techniques | 2026-11-10 | 企业流动性与长期偿债分析；属于一般公司财务定义而非银行监管 |
 
 ## 核心断言登记
 
 | ID | 断言或教学内容 | 证据 | 属性 | 分类 |
 |---|---|---|---|---|
-| F1 | 流动性与偿付能力 的概念定义及机制 | Basel Committee｜Liquidity Coverage Ratio — LCR30 | 原理依据，需对照具体章节复核 | concept_reference |
+| F1 | 流动性与偿付能力 的概念定义及机制 | S2 CFA企业财务分析；S1仅覆盖银行LCR口径 | 原理依据，需对照具体章节复核 | concept_reference |
 | H1 | 公司持有难出售的土地，却面临下周到期的借款。 | 本期脚本假设案例 | 假设，非真实新闻 | scenario |
 | A1 | 两者相互影响但不等同：廉价抛售资产可能使流动性问题恶化为偿付问题。 | 本期分析 | 适用边界，人工复核 | analysis |
 
 ## 关键适用边界
+
+- **2026-11-10 独立来源对照**：CFA将公司短期付款能力归于流动性分析，长期履约能力归于偿付能力分析；Basel LCR为**银行30日压力情景**监管标准，不可作为一般企业偿债能力的通用公式。来源链接已复核概念范围，但并未替代整期人工逐句审核。
 
 假设现金2亿元和到期10亿元的静态差额不是实际偿债缺口；不得对现实企业影射违约。
 

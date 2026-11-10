@@ -8,6 +8,8 @@
 - [第一批交付与人工审稿指南](../../../docs/finance-100-batch-01-report.md)
 - [第二批M04–M06交付与审核报告](../../../docs/finance-100-batch-02-report.md)
 - [七章M04–M10合并交付与新写40期报告](../../../docs/finance-100-batch-03-seven-chapters.md)
+- [2026-11-10自检及制作交接报告](../../../docs/finance-100-production-self-review-2026-11-10.md)
+- [试录导演卡、终审签核规范](../../../production/README.md)
 
 ## 模块目录
 

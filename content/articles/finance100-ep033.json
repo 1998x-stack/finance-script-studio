@@ -7,7 +7,7 @@
   "category": "concept",
   "status": "draft",
   "published_at": "2026-11-09",
-  "updated_at": "2026-11-09",
+  "updated_at": "2026-11-10",
   "as_of": "2026-11-09",
   "reading_minutes": 4,
   "video_seconds": 180,
@@ -123,11 +123,11 @@
     },
     {
       "id": "S2",
-      "title": "中国货币网｜贷款市场报价利率LPR简介及2026年10月报价",
+      "title": "中国货币网｜2026年10月20日全国银行间同业拆借中心LPR公告",
       "publisher": "中国货币网",
       "published_at": "2026-10-20",
-      "type": "LPR形成机制及当期公布数据；日期是引用报价期",
-      "url": "https://www.chinamoney.org.cn/chinese/bklpr/"
+      "type": "2026-10-20正式报价公告；官方公布1年期3.0%、5年期以上3.5%，有效至下一次公布；不等于客户合同利率",
+      "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261020/3433485.html"
     },
     {
       "id": "ED",
