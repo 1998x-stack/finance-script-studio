@@ -1,6 +1,6 @@
 """Full review-and-production content is public, but article release is blocked."""
 from __future__ import annotations
-import csv,json,sys,tempfile,unittest
+import csv,html,json,sys,tempfile,unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/"scripts"))
@@ -24,13 +24,13 @@ class FullProductionWebsiteTests(unittest.TestCase):
                     self.assertIn(term,output)
                 a=json.loads((ROOT/"content"/"articles"/f'finance100-{lesson["id"].lower()}.json').read_text(encoding="utf-8"))
                 for beat in a["voiceover"]:
-                    self.assertIn(beat["text"],output)
+                    self.assertIn(html.escape(beat["text"],quote=True),output)
 
     def test_website_dashboard_and_100_individual_pages(self):
         with tempfile.TemporaryDirectory() as temp:
             out=Path(temp)/"site"
             build(out)
-            self.assertIn('href="production/"',(out/"index.html").read_text(encoding="utf-8"))
+            self.assertIn('href="./production/"',(out/"index.html").read_text(encoding="utf-8"))
             dash=(out/"production"/"index.html").read_text(encoding="utf-8")
             self.assertEqual(dash.count('data-prod-queue="'),100)
             for term in ("审核与制作","六道人工审核门槛","100期审核与制作总表","11期优先试录材料","全系列自检报告","终审签核与制片模板"):

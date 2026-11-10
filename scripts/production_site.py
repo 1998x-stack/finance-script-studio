@@ -187,7 +187,7 @@ def episode_materials(lesson: dict, qa: dict | None = None, root: Path = ROOT) -
 <div class="prod-draft-note"><strong>本页展示全部待审材料，不等于已批准发表。</strong>
 以下文字、图表方案与来源记录仍需真人事实核查、录音、版权和平台合规审核。</div>
 <section class="prod-material" id="full-script">
-<div class="lesson-section-label">SCRIPT / 全文口播 · 待试录</div><h2>五幕完整口播稿</h2>
+<div class="lesson-section-label">SCRIPT / 全文口播 · 待试录</div><h2>完整五段口播稿</h2>
 <p class="quiet">时间区间是策划目标，尚未通过真人录音计时。</p>
 {''.join(beats)}
 <details class="prod-raw"><summary>查看脚本源文件、编导备注</summary>{markdown_doc(raw["script"])}</details>

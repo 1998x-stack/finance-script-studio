@@ -48,7 +48,7 @@ class Finance100PublicCatalogTests(unittest.TestCase):
             self.assertIn('href="series/finance-100/"',home)
             self.assertIn("十章知识地图",course)
             self.assertIn('id="episode-search"',course)
-            self.assertIn("提纲预览",course)
+            self.assertIn("完整工作稿",course)
             for module in self.catalog:
                 self.assertIn(f'id="module-{module["id"]}"',course)
             for lesson in self.lessons:
