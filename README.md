@@ -29,7 +29,9 @@ python3 -m http.server 8000 --directory _site
 **10 个模块 × 100 期、每期目标约180秒，100期均已有独立口播初稿、来源卡、分镜及审稿文件与100份 draft JSON。所有期号仍待人工终审及试录；本轮按七章范围 M04–M10 交付，其中 M04–M06 沿用前批内容，M07–M10 新增40期：**
 
 - [2026-11-09 完整选题总纲](docs/finance-100-production-blueprint.md)（当前制作依据）
+- **[网站在线浏览：财经100个核心概念课程](https://1998x-stack.github.io/finance-script-studio/series/finance-100/)**（10章100集目录、搜索和逐集提纲预览）
 - [100期分模块工作区与进度索引](content/series/finance-100/README.md)
+- [百期课程网站展示规则与维护说明](docs/finance-100-pages-guide.md)
 - [100期机器可读清单（manifest）](content/series/finance-100/manifest.json)
 - [第一批30期内容交付与审核报告](docs/finance-100-batch-01-report.md)
 - [第二批30期内容交付与审核报告](docs/finance-100-batch-02-report.md)
@@ -39,7 +41,7 @@ python3 -m http.server 8000 --directory _site
 - [制作签核模板与试录操作说明](production/README.md)
 - [早期100概念课程地图](docs/finance-100-concept-map.md)（历史参考，期号与现行方案不一致）
 
-**进度口径：100期全部已有初稿，100期均为 `in_review`；已生成的100份 article JSON 均为 `draft`，不是已经发表的页面。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
+**进度口径：100期全部已有初稿，100期均为 `in_review`；已生成的100份 article JSON 均为 `draft`，不是已经发表的页面。** **公开课程目录展示选题提纲，并非正式发布文章；单集预览页不暴露完整草稿正文，正式稿仍需人工终审及独立发布授权。** 正式公开稿件依旧由 `content/articles/` 的 `draft/published` 机制控制。
 
 ## Skill 部署
 
@@ -62,6 +64,8 @@ python3 scripts/sync_skills.py --check
 工作流 `.github/workflows/pages.yml` 在推送 main 时自动校验并部署 `_site`，使用仓库名作为 GitHub Pages 的路径前缀。首次使用需在仓库 **Settings → Pages → Build and deployment → GitHub Actions** 选定 Actions 来源，确保 Actions 和 Pages 权限已开启。预期站点地址为：
 
 https://1998x-stack.github.io/finance-script-studio/
+
+课程专栏：**https://1998x-stack.github.io/finance-script-studio/series/finance-100/**
 
 仅有工作流文件不代表 Pages 已在仓库设置中启用。请查看 Actions 和 Settings → Pages 的实际部署状态。
 

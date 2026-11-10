@@ -10,6 +10,7 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
+from series_site import build_course, read_curriculum, home_teaser
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content" / "articles"
@@ -106,10 +107,10 @@ def shell(title, description, canonical, body, root_prefix="./", article=False):
 <body><a class="skip" href="#main">跳到正文</a>
 <header class="site-header"><div class="container header-inner">
 <a class="brand" href="{root_prefix}" aria-label="财经观察首页"><span class="brand-icon">F<span>·</span></span><span>财经<span class="brand-light">理性观察</span><small>FINANCE SCRIPT STUDIO</small></span></a>
-<nav class="nav"><a href="{root_prefix}#topics">研究栏目</a><a href="{root_prefix}#latest">最新研究</a><a href="https://github.com/1998x-stack/finance-script-studio" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+<nav class="nav"><a href="{root_prefix}#topics">研究栏目</a><a href="{root_prefix}series/finance-100/">百期课程</a><a href="{root_prefix}#latest">最新研究</a><a href="https://github.com/1998x-stack/finance-script-studio" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
 </div></header><main id="main">{body}</main>
 <footer class="footer"><div class="container footer-grid"><div><strong>财经理性观察</strong><p>事实有出处，观点有边界。</p></div><div>基于公开信息的研究与财经科普，不构成任何投资建议。<br>文稿中的时间、数字和判断以各篇标注的研究截止日为准。</div></div></footer>
-<script defer src="{root_prefix}assets/site.js"></script></body></html>'''
+<script defer src="{root_prefix}assets/site.js"></script><script defer src="{root_prefix}assets/series.js"></script></body></html>'''
 
 def metric_card(m, compact=False):
     return (f'<div class="metric"><div class="metric-label">{h(m["label"])}</div>'
@@ -134,7 +135,7 @@ def index_page(articles):
 <h1>从一个财经事件，<br><span>看清一条商业规律。</span></h1>
 <p class="home-intro">信息可以很快，理解值得更深。用可追溯的数据、克制的判断和清晰的故事，拆解市场现象背后的因果。</p>
 <div class="hero-rule"><span>FACTS</span><span>MECHANISMS</span><span>PERSPECTIVE</span></div>
-</div></section>{feature}
+</div></section>{feature}{home_teaser(h, read_curriculum())}
 <section id="topics" class="section container"><div class="section-head"><div><span class="small-kicker">OUR COVERAGE</span><h2>四条研究主线</h2></div><p>不追逐所有信息，只分析值得被理解的问题。</p></div><div class="topic-grid">{nav}</div></section>
 <section id="latest" class="section container"><div class="section-head"><div><span class="small-kicker">THE ARCHIVE</span><h2>最新研究</h2></div><p>每篇文章都有对应的来源、分析正文和可直接拍摄的口播。</p></div><div class="filters" role="group" aria-label="按栏目筛选">{filters}</div><div class="articles-grid">{cards or '<p>暂无已发布稿件。</p>'}</div><p id="empty-filter" class="empty-filter" hidden>该栏目尚无已发布稿件。</p></section>'''
     return shell("首页", SITE["description"], SITE["base_url"], body)
@@ -184,7 +185,8 @@ def build(out_dir):
         shutil.rmtree(previous_articles)
     shutil.copytree(ROOT/"web"/"assets",out_dir/"assets",dirs_exist_ok=True)
     (out_dir/"index.html").write_text(index_page(published),encoding="utf-8")
-    urls=[SITE["base_url"]]
+    course=build_course(out_dir, shell, h, SITE)
+    urls=[SITE["base_url"], *course["urls"]]
     summary=[]
     for a in published:
         target=out_dir/"articles"/a["slug"]
@@ -199,7 +201,7 @@ def build(out_dir):
     (out_dir/"sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+sitemap+'</urlset>',encoding="utf-8")
     (out_dir/"robots.txt").write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE["base_url"]}sitemap.xml\n',encoding="utf-8")
     (out_dir/".nojekyll").touch()
-    print(f"Built {len(published)} published page(s) from {len(arts)} content record(s) at {out_dir}")
+    print(f"Built {len(published)} published article page(s), {course['episodes']} course preview pages from {len(arts)} content record(s) at {out_dir}")
 
 def main():
     ap=argparse.ArgumentParser()
@@ -207,7 +209,8 @@ def main():
     ap.add_argument("--out-dir",default="_site",type=Path)
     args=ap.parse_args()
     arts=read_articles()
-    print(f"Validated {len(arts)} article records")
+    modules=read_curriculum()
+    print(f"Validated {len(arts)} article records and {sum(len(m['lessons']) for m in modules)} course previews")
     if not args.check:
         build(args.out_dir)
 
